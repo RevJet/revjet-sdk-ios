@@ -20,7 +20,7 @@
     [super viewDidAppear:anAnimated];
 
     CGSize theSize = CGSizeMake(320.0f, 64.0f);
-    NSString *tagUrl = @"http://localhost:8080/tag-function.html";
+    NSString *tagUrl = @"https://cdn.revjet.com/~cdn/Ads/ad_shared/test/thd/tag-function.html";
 
     self.slot = [[RJSlot alloc] initWithDelegate:self tagUrl:tagUrl
                 frame:CGRectMake(0.0f, 0.0f, theSize.width, theSize.height)];
