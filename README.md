@@ -62,3 +62,19 @@ _(SDK parameters are defined in ```<meta>``` tags.)_
 To support additional ad sizes you need to update ```+ (CGSize)supportedSizeForSize:(CGSize)aSize``` method in
 "RevJetSDK/Utilities/RJUtilities.m".
  
+## Overriding LP URL handling
+
+By default, any LP URLs will be opened in the external browser.
+It is possible to override this behaviour by implementing ```- (BOOL)shouldOpenURL:(NSURL*)url``` function (from ```RJSlotDelegate```):
+```
+- (BOOL)shouldOpenURL:(NSURL*)url
+{
+    // Here we test “url” to some value ...
+ 
+    // Return YES to open in the external browser
+    // Return NO to cancel opening the url in the external browser (here we can show something in-app)
+    return YES; 
+}
+```
+
+
