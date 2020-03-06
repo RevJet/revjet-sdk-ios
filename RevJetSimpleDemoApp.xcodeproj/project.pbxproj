@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		927C22D924128EF000E64EC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927C22D824128EF000E64EC5 /* AppDelegate.m */; };
+		927C22DF24128EF000E64EC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927C22DE24128EF000E64EC5 /* ViewController.m */; };
+		927C22E424128EF100E64EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927C22E324128EF100E64EC5 /* Assets.xcassets */; };
+		927C22EA24128EF100E64EC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 927C22E924128EF100E64EC5 /* main.m */; };
+		928ED20C241290B4005E0651 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928ED20A241290B4005E0651 /* DemoViewController.m */; };
+		928ED20D241290B4005E0651 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 928ED20B241290B4005E0651 /* DemoViewController.xib */; };
+		928ED22224129952005E0651 /* RevJetSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928ED21F24129942005E0651 /* RevJetSDK.framework */; };
+		928ED22324129952005E0651 /* RevJetSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 928ED21F24129942005E0651 /* RevJetSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		928ED21E24129942005E0651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928ED21924129942005E0651 /* RevJetSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9260B88C1FD6DA7300B7C8F7;
+			remoteInfo = RevJetSDK;
+		};
+		928ED22024129942005E0651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928ED21924129942005E0651 /* RevJetSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9260B8951FD6DA7300B7C8F7;
+			remoteInfo = RevJetSDKTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		928ED2082412905B005E0651 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				928ED22324129952005E0651 /* RevJetSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		927C22D424128EF000E64EC5 /* RevJetSimpleDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevJetSimpleDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927C22D724128EF000E64EC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		927C22D824128EF000E64EC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		927C22DD24128EF000E64EC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		927C22DE24128EF000E64EC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		927C22E324128EF100E64EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927C22E824128EF100E64EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927C22E924128EF100E64EC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		928ED209241290B4005E0651 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		928ED20A241290B4005E0651 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		928ED20B241290B4005E0651 /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		928ED21924129942005E0651 /* RevJetSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RevJetSDK.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		927C22D124128EF000E64EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928ED22224129952005E0651 /* RevJetSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		927C22CB24128EF000E64EC5 = {
+			isa = PBXGroup;
+			children = (
+				928ED21924129942005E0651 /* RevJetSDK.xcodeproj */,
+				927C22D624128EF000E64EC5 /* RevJetSimpleDemoApp */,
+				927C22D524128EF000E64EC5 /* Products */,
+				928ED2052412905B005E0651 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		927C22D524128EF000E64EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				927C22D424128EF000E64EC5 /* RevJetSimpleDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927C22D624128EF000E64EC5 /* RevJetSimpleDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				927C22D724128EF000E64EC5 /* AppDelegate.h */,
+				927C22D824128EF000E64EC5 /* AppDelegate.m */,
+				927C22DD24128EF000E64EC5 /* ViewController.h */,
+				927C22DE24128EF000E64EC5 /* ViewController.m */,
+				928ED209241290B4005E0651 /* DemoViewController.h */,
+				928ED20A241290B4005E0651 /* DemoViewController.m */,
+				928ED20B241290B4005E0651 /* DemoViewController.xib */,
+				927C22E324128EF100E64EC5 /* Assets.xcassets */,
+				927C22E824128EF100E64EC5 /* Info.plist */,
+				927C22E924128EF100E64EC5 /* main.m */,
+			);
+			path = RevJetSimpleDemoApp;
+			sourceTree = "<group>";
+		};
+		928ED2052412905B005E0651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		928ED21A24129942005E0651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				928ED21F24129942005E0651 /* RevJetSDK.framework */,
+				928ED22124129942005E0651 /* RevJetSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		927C22D324128EF000E64EC5 /* RevJetSimpleDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927C22ED24128EF100E64EC5 /* Build configuration list for PBXNativeTarget "RevJetSimpleDemoApp" */;
+			buildPhases = (
+				927C22D024128EF000E64EC5 /* Sources */,
+				927C22D124128EF000E64EC5 /* Frameworks */,
+				927C22D224128EF000E64EC5 /* Resources */,
+				928ED2082412905B005E0651 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevJetSimpleDemoApp;
+			productName = RevJetSimpleDemoApp;
+			productReference = 927C22D424128EF000E64EC5 /* RevJetSimpleDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		927C22CC24128EF000E64EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = RevJet;
+				TargetAttributes = {
+					927C22D324128EF000E64EC5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 927C22CF24128EF000E64EC5 /* Build configuration list for PBXProject "RevJetSimpleDemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 927C22CB24128EF000E64EC5;
+			productRefGroup = 927C22D524128EF000E64EC5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 928ED21A24129942005E0651 /* Products */;
+					ProjectRef = 928ED21924129942005E0651 /* RevJetSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				927C22D324128EF000E64EC5 /* RevJetSimpleDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		928ED21F24129942005E0651 /* RevJetSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RevJetSDK.framework;
+			remoteRef = 928ED21E24129942005E0651 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		928ED22124129942005E0651 /* RevJetSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RevJetSDKTests.xctest;
+			remoteRef = 928ED22024129942005E0651 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		927C22D224128EF000E64EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927C22E424128EF100E64EC5 /* Assets.xcassets in Resources */,
+				928ED20D241290B4005E0651 /* DemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		927C22D024128EF000E64EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927C22DF24128EF000E64EC5 /* ViewController.m in Sources */,
+				927C22D924128EF000E64EC5 /* AppDelegate.m in Sources */,
+				927C22EA24128EF100E64EC5 /* main.m in Sources */,
+				928ED20C241290B4005E0651 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		927C22EB24128EF100E64EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		927C22EC24128EF100E64EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		927C22EE24128EF100E64EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevJetSimpleDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.revjet.RevJetSimpleDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		927C22EF24128EF100E64EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevJetSimpleDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.revjet.RevJetSimpleDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		927C22CF24128EF000E64EC5 /* Build configuration list for PBXProject "RevJetSimpleDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927C22EB24128EF100E64EC5 /* Debug */,
+				927C22EC24128EF100E64EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927C22ED24128EF100E64EC5 /* Build configuration list for PBXNativeTarget "RevJetSimpleDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927C22EE24128EF100E64EC5 /* Debug */,
+				927C22EF24128EF100E64EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 927C22CC24128EF000E64EC5 /* Project object */;
+}

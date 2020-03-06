@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920883451FD7EB8A007D2CDD /* RJCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882BC1FD7EB86007D2CDD /* RJCustomEventAdapter.m */; };
+		920883461FD7EB8A007D2CDD /* RJCustomEventAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882BD1FD7EB86007D2CDD /* RJCustomEventAdapter.h */; };
+		920883471FD7EB8A007D2CDD /* RJSlot.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882BE1FD7EB86007D2CDD /* RJSlot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		920883481FD7EB8A007D2CDD /* RJURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882BF1FD7EB86007D2CDD /* RJURL.h */; };
+		920883491FD7EB8A007D2CDD /* RJNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882C01FD7EB86007D2CDD /* RJNetwork.m */; };
+		9208834A1FD7EB8A007D2CDD /* RJUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882C21FD7EB86007D2CDD /* RJUtilities.m */; };
+		9208834B1FD7EB8A007D2CDD /* RJUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882C31FD7EB86007D2CDD /* RJUtilities.h */; };
+		9208834C1FD7EB8A007D2CDD /* RJBaseAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882C41FD7EB87007D2CDD /* RJBaseAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9208834D1FD7EB8A007D2CDD /* RJMRAIDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882C61FD7EB87007D2CDD /* RJMRAIDView.h */; };
+		9208834E1FD7EB8A007D2CDD /* RJMRAIDInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882C71FD7EB87007D2CDD /* RJMRAIDInterstitialAdapter.m */; };
+		9208834F1FD7EB8A007D2CDD /* RJMRAIDAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882C81FD7EB87007D2CDD /* RJMRAIDAdapter.h */; };
+		920883501FD7EB8A007D2CDD /* RJMRAIDScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882C91FD7EB87007D2CDD /* RJMRAIDScript.h */; };
+		920883511FD7EB8A007D2CDD /* RJMRAIDViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882CA1FD7EB87007D2CDD /* RJMRAIDViewDelegate.h */; };
+		920883521FD7EB8A007D2CDD /* RJMRAID.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882CB1FD7EB87007D2CDD /* RJMRAID.h */; };
+		920883531FD7EB8A007D2CDD /* RJMRAIDInterstitialController.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882CC1FD7EB87007D2CDD /* RJMRAIDInterstitialController.h */; };
+		920883541FD7EB8A007D2CDD /* RJMRAIDScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882CD1FD7EB87007D2CDD /* RJMRAIDScript.m */; };
+		920883551FD7EB8A007D2CDD /* RJMRAIDAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882CE1FD7EB87007D2CDD /* RJMRAIDAdapter.m */; };
+		920883561FD7EB8A007D2CDD /* RJMRAIDInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882CF1FD7EB87007D2CDD /* RJMRAIDInterstitialAdapter.h */; };
+		920883571FD7EB8A007D2CDD /* RJMRAIDNativeExpandEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882D11FD7EB87007D2CDD /* RJMRAIDNativeExpandEvent.m */; };
+		920883581FD7EB8A007D2CDD /* RJMRAIDNativeCalendarEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882D21FD7EB87007D2CDD /* RJMRAIDNativeCalendarEvent.h */; };
+		920883591FD7EB8A007D2CDD /* RJMRAIDExpandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882D31FD7EB87007D2CDD /* RJMRAIDExpandViewController.m */; };
+		9208835A1FD7EB8A007D2CDD /* RJMRAIDNativeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882D41FD7EB87007D2CDD /* RJMRAIDNativeEvent.m */; };
+		9208835B1FD7EB8A007D2CDD /* RJMRAIDNativeCloseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882D51FD7EB87007D2CDD /* RJMRAIDNativeCloseEvent.h */; };
+		9208835C1FD7EB8A007D2CDD /* RJMRAIDNativeEventFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882D61FD7EB87007D2CDD /* RJMRAIDNativeEventFactory.h */; };
+		9208835D1FD7EB8A007D2CDD /* RJMRAIDNativeStorePictureEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882D71FD7EB87007D2CDD /* RJMRAIDNativeStorePictureEvent.h */; };
+		9208835E1FD7EB8A007D2CDD /* RJMRAIDNativeUseCustomCloseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882D81FD7EB87007D2CDD /* RJMRAIDNativeUseCustomCloseEvent.m */; };
+		9208835F1FD7EB8A007D2CDD /* RJMRAIDNativeOpenEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882D91FD7EB87007D2CDD /* RJMRAIDNativeOpenEvent.m */; };
+		920883601FD7EB8A007D2CDD /* RJMRAIDNativePlayVideoEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882DA1FD7EB87007D2CDD /* RJMRAIDNativePlayVideoEvent.h */; };
+		920883611FD7EB8A007D2CDD /* RJMRAIDNativeOrientationPropertiesEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882DB1FD7EB87007D2CDD /* RJMRAIDNativeOrientationPropertiesEvent.h */; };
+		920883621FD7EB8A007D2CDD /* RJMRAIDNativeExpandEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882DC1FD7EB87007D2CDD /* RJMRAIDNativeExpandEvent.h */; };
+		920883631FD7EB8A007D2CDD /* RJMRAIDNativeEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882DD1FD7EB87007D2CDD /* RJMRAIDNativeEvent.h */; };
+		920883641FD7EB8A007D2CDD /* RJMRAIDExpandViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882DE1FD7EB87007D2CDD /* RJMRAIDExpandViewController.h */; };
+		920883651FD7EB8A007D2CDD /* RJMRAIDNativeCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882DF1FD7EB87007D2CDD /* RJMRAIDNativeCalendarEvent.m */; };
+		920883661FD7EB8A007D2CDD /* RJMRAIDNativeEventFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882E01FD7EB87007D2CDD /* RJMRAIDNativeEventFactory.m */; };
+		920883671FD7EB8A007D2CDD /* RJMRAIDNativeCloseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882E11FD7EB87007D2CDD /* RJMRAIDNativeCloseEvent.m */; };
+		920883681FD7EB8A007D2CDD /* RJMRAIDNativePlayVideoEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882E21FD7EB87007D2CDD /* RJMRAIDNativePlayVideoEvent.m */; };
+		920883691FD7EB8A007D2CDD /* RJMRAIDNativeOrientationPropertiesEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882E31FD7EB87007D2CDD /* RJMRAIDNativeOrientationPropertiesEvent.m */; };
+		9208836A1FD7EB8A007D2CDD /* RJMRAIDNativeUseCustomCloseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882E41FD7EB87007D2CDD /* RJMRAIDNativeUseCustomCloseEvent.h */; };
+		9208836B1FD7EB8A007D2CDD /* RJMRAIDNativeOpenEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882E51FD7EB87007D2CDD /* RJMRAIDNativeOpenEvent.h */; };
+		9208836C1FD7EB8A007D2CDD /* RJMRAIDNativeStorePictureEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882E61FD7EB87007D2CDD /* RJMRAIDNativeStorePictureEvent.m */; };
+		9208836D1FD7EB8A007D2CDD /* RJMRAIDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882E71FD7EB87007D2CDD /* RJMRAIDView.m */; };
+		9208836E1FD7EB8A007D2CDD /* RJMRAID.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882E81FD7EB87007D2CDD /* RJMRAID.m */; };
+		9208836F1FD7EB8A007D2CDD /* RJMRAIDInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882E91FD7EB87007D2CDD /* RJMRAIDInterstitialController.m */; };
+		920883701FD7EB8A007D2CDD /* RJBaseAdapterInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882EA1FD7EB87007D2CDD /* RJBaseAdapterInterstitial.m */; };
+		920883711FD7EB8A007D2CDD /* RJHTMLScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882EB1FD7EB87007D2CDD /* RJHTMLScanner.h */; };
+		920883721FD7EB8A007D2CDD /* RJSlotDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882EC1FD7EB87007D2CDD /* RJSlotDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		920883731FD7EB8A007D2CDD /* RJSlotInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882ED1FD7EB87007D2CDD /* RJSlotInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		920883741FD7EB8A007D2CDD /* RJSlotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882EE1FD7EB87007D2CDD /* RJSlotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		920883751FD7EB8A007D2CDD /* RJStatusBarVisibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882EF1FD7EB87007D2CDD /* RJStatusBarVisibility.m */; };
+		920883761FD7EB8A007D2CDD /* RJHTMLScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882F01FD7EB87007D2CDD /* RJHTMLScanner.m */; };
+		920883771FD7EB8A007D2CDD /* RJGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882F11FD7EB87007D2CDD /* RJGlobal.h */; };
+		920883781FD7EB8A007D2CDD /* RJSlotInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882F21FD7EB87007D2CDD /* RJSlotInterstitial.m */; };
+		920883791FD7EB8A007D2CDD /* RJBaseAdapterInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882F31FD7EB87007D2CDD /* RJBaseAdapterInterstitial.h */; };
+		9208837A1FD7EB8A007D2CDD /* RJPasteboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882F51FD7EB88007D2CDD /* RJPasteboard.h */; };
+		9208837B1FD7EB8A007D2CDD /* RJAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882F61FD7EB88007D2CDD /* RJAdapter.h */; };
+		9208837C1FD7EB8A007D2CDD /* RJBaseInterstitialController.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882F71FD7EB88007D2CDD /* RJBaseInterstitialController.h */; };
+		9208837D1FD7EB8A007D2CDD /* RJInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882F81FD7EB88007D2CDD /* RJInterstitialController.m */; };
+		9208837E1FD7EB8A007D2CDD /* RJAdapterInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882F91FD7EB88007D2CDD /* RJAdapterInterstitial.m */; };
+		9208837F1FD7EB8A007D2CDD /* RJWebBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882FA1FD7EB88007D2CDD /* RJWebBrowser.h */; };
+		920883801FD7EB8A007D2CDD /* RJStoreProductViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882FB1FD7EB88007D2CDD /* RJStoreProductViewController.h */; };
+		920883811FD7EB8A007D2CDD /* RJWebBrowserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882FC1FD7EB88007D2CDD /* RJWebBrowserDelegate.h */; };
+		920883821FD7EB8A007D2CDD /* RJBaseInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882FD1FD7EB88007D2CDD /* RJBaseInterstitialController.m */; };
+		920883831FD7EB8A007D2CDD /* RJAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 920882FE1FD7EB88007D2CDD /* RJAdapter.m */; };
+		920883841FD7EB8A007D2CDD /* RJInterstitialControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 920882FF1FD7EB88007D2CDD /* RJInterstitialControllerDelegate.h */; };
+		920883851FD7EB8A007D2CDD /* RJPasteboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883001FD7EB88007D2CDD /* RJPasteboard.m */; };
+		920883861FD7EB8A007D2CDD /* RJStoreProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883011FD7EB88007D2CDD /* RJStoreProductViewController.m */; };
+		920883871FD7EB8A007D2CDD /* RJWebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883021FD7EB88007D2CDD /* RJWebBrowser.m */; };
+		920883881FD7EB8A007D2CDD /* RJAdapterInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883031FD7EB88007D2CDD /* RJAdapterInterstitial.h */; };
+		920883891FD7EB8A007D2CDD /* RJInterstitialController.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883041FD7EB88007D2CDD /* RJInterstitialController.h */; };
+		9208838A1FD7EB8A007D2CDD /* RJConversionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883061FD7EB88007D2CDD /* RJConversionConfig.m */; };
+		9208838B1FD7EB8A007D2CDD /* RJConversionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883071FD7EB88007D2CDD /* RJConversionTracker.m */; };
+		9208838C1FD7EB8A007D2CDD /* RJConversionCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883081FD7EB88007D2CDD /* RJConversionCommon.h */; };
+		9208838D1FD7EB8A007D2CDD /* RJConversionReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883091FD7EB88007D2CDD /* RJConversionReachability.h */; };
+		9208838E1FD7EB8A007D2CDD /* RJConversionTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208830A1FD7EB88007D2CDD /* RJConversionTracker.h */; };
+		9208838F1FD7EB8A007D2CDD /* RJConversionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208830B1FD7EB88007D2CDD /* RJConversionConfig.h */; };
+		920883901FD7EB8A007D2CDD /* RJConversionReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208830C1FD7EB88007D2CDD /* RJConversionReachability.m */; };
+		920883911FD7EB8A007D2CDD /* RJConversionCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208830D1FD7EB88007D2CDD /* RJConversionCommon.m */; };
+		920883921FD7EB8A007D2CDD /* RJAdapterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208830E1FD7EB88007D2CDD /* RJAdapterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		920883931FD7EB8A007D2CDD /* RJGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208830F1FD7EB88007D2CDD /* RJGlobal.m */; };
+		920883941FD7EB8A007D2CDD /* RJNetworkInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883101FD7EB88007D2CDD /* RJNetworkInterstitial.m */; };
+		920883951FD7EB8A007D2CDD /* RJSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883111FD7EB88007D2CDD /* RJSlot.m */; };
+		920883971FD7EB8A007D2CDD /* RJNetworkMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883131FD7EB88007D2CDD /* RJNetworkMapping.h */; };
+		920883981FD7EB8A007D2CDD /* RJReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883141FD7EB88007D2CDD /* RJReachability.m */; };
+		9208839A1FD7EB8A007D2CDD /* RJSlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883161FD7EB89007D2CDD /* RJSlotView.m */; };
+		9208839B1FD7EB8A007D2CDD /* RJStatusBarVisibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883171FD7EB89007D2CDD /* RJStatusBarVisibility.h */; };
+		9208839C1FD7EB8A007D2CDD /* RJURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883181FD7EB89007D2CDD /* RJURL.m */; };
+		9208839D1FD7EB8A007D2CDD /* RJPixelsTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208831A1FD7EB89007D2CDD /* RJPixelsTracker.h */; };
+		9208839E1FD7EB8A007D2CDD /* RJPixelsQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208831B1FD7EB89007D2CDD /* RJPixelsQueue.m */; };
+		9208839F1FD7EB8A007D2CDD /* RJPixelsQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208831C1FD7EB89007D2CDD /* RJPixelsQueue.h */; };
+		920883A01FD7EB8A007D2CDD /* RJPixelsTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208831D1FD7EB89007D2CDD /* RJPixelsTracker.m */; };
+		920883A11FD7EB8A007D2CDD /* RJBaseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208831E1FD7EB89007D2CDD /* RJBaseAdapter.m */; };
+		920883A21FD7EB8A007D2CDD /* RJNetworkMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208831F1FD7EB89007D2CDD /* RJNetworkMapping.m */; };
+		920883A31FD7EB8A007D2CDD /* RJSlotViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883201FD7EB89007D2CDD /* RJSlotViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		920883A41FD7EB8A007D2CDD /* RJNetworkInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883211FD7EB89007D2CDD /* RJNetworkInterstitial.h */; };
+		920883A51FD7EB8A007D2CDD /* RJNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883221FD7EB8A007D2CDD /* RJNetwork.h */; };
+		920883A61FD7EB8A007D2CDD /* RJReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883231FD7EB8A007D2CDD /* RJReachability.h */; };
+		920883A71FD7EB8A007D2CDD /* RJVASTToolbarViewCountdownElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883261FD7EB8A007D2CDD /* RJVASTToolbarViewCountdownElement.h */; };
+		920883A81FD7EB8A007D2CDD /* RJVASTToolbarViewCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883271FD7EB8A007D2CDD /* RJVASTToolbarViewCloseButton.m */; };
+		920883A91FD7EB8A007D2CDD /* RJVASTToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883281FD7EB8A007D2CDD /* RJVASTToolbarView.h */; };
+		920883AA1FD7EB8A007D2CDD /* RJVASTToolbarViewLearnMoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883291FD7EB8A007D2CDD /* RJVASTToolbarViewLearnMoreButton.m */; };
+		920883AB1FD7EB8A007D2CDD /* RJVASTToolbarViewCountdownElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208832A1FD7EB8A007D2CDD /* RJVASTToolbarViewCountdownElement.m */; };
+		920883AC1FD7EB8A007D2CDD /* RJVASTToolbarViewCloseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208832B1FD7EB8A007D2CDD /* RJVASTToolbarViewCloseButton.h */; };
+		920883AD1FD7EB8A007D2CDD /* RJVASTToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208832C1FD7EB8A007D2CDD /* RJVASTToolbarView.m */; };
+		920883AE1FD7EB8A007D2CDD /* RJVASTToolbarViewLearnMoreButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208832D1FD7EB8A007D2CDD /* RJVASTToolbarViewLearnMoreButton.h */; };
+		920883AF1FD7EB8A007D2CDD /* RJVASTInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208832E1FD7EB8A007D2CDD /* RJVASTInterstitialController.m */; };
+		920883B01FD7EB8A007D2CDD /* RJVASTInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208832F1FD7EB8A007D2CDD /* RJVASTInterstitialAdapter.m */; };
+		920883B11FD7EB8A007D2CDD /* RJXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883311FD7EB8A007D2CDD /* RJXMLParser.m */; };
+		920883B21FD7EB8A007D2CDD /* RJVASTXMLParserAggregator.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883321FD7EB8A007D2CDD /* RJVASTXMLParserAggregator.h */; };
+		920883B31FD7EB8A007D2CDD /* RJXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883331FD7EB8A007D2CDD /* RJXMLParser.h */; };
+		920883B41FD7EB8A007D2CDD /* RJVASTXMLParserAggregator.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883341FD7EB8A007D2CDD /* RJVASTXMLParserAggregator.m */; };
+		920883B51FD7EB8A007D2CDD /* RJVASTCompanionAdRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883361FD7EB8A007D2CDD /* RJVASTCompanionAdRepresentation.m */; };
+		920883B61FD7EB8A007D2CDD /* RJVASTMediaFileRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883371FD7EB8A007D2CDD /* RJVASTMediaFileRepresentation.h */; };
+		920883B71FD7EB8A007D2CDD /* RJVASTRepresentationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883381FD7EB8A007D2CDD /* RJVASTRepresentationUtilities.m */; };
+		920883B81FD7EB8A007D2CDD /* RJVASTAdRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883391FD7EB8A007D2CDD /* RJVASTAdRepresentation.h */; };
+		920883B91FD7EB8A007D2CDD /* RJVASTComponentRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208833A1FD7EB8A007D2CDD /* RJVASTComponentRepresentation.h */; };
+		920883BA1FD7EB8A007D2CDD /* RJVASTMediaFileRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208833B1FD7EB8A007D2CDD /* RJVASTMediaFileRepresentation.m */; };
+		920883BB1FD7EB8A007D2CDD /* RJVASTCompanionAdRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208833C1FD7EB8A007D2CDD /* RJVASTCompanionAdRepresentation.h */; };
+		920883BC1FD7EB8A007D2CDD /* RJVASTRepresentationUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208833D1FD7EB8A007D2CDD /* RJVASTRepresentationUtilities.h */; };
+		920883BD1FD7EB8A007D2CDD /* RJVASTComponentRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208833E1FD7EB8A007D2CDD /* RJVASTComponentRepresentation.m */; };
+		920883BE1FD7EB8A007D2CDD /* RJVASTAdRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208833F1FD7EB8A007D2CDD /* RJVASTAdRepresentation.m */; };
+		920883BF1FD7EB8A007D2CDD /* RJUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 920883411FD7EB8A007D2CDD /* RJUIImage.m */; };
+		920883C01FD7EB8A007D2CDD /* RJUIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883421FD7EB8A007D2CDD /* RJUIImage.h */; };
+		920883C11FD7EB8A007D2CDD /* RJVASTInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883431FD7EB8A007D2CDD /* RJVASTInterstitialAdapter.h */; };
+		920883C21FD7EB8A007D2CDD /* RJVASTInterstitialController.h in Headers */ = {isa = PBXBuildFile; fileRef = 920883441FD7EB8A007D2CDD /* RJVASTInterstitialController.h */; };
+		920883C51FD7EED1007D2CDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883C41FD7EE93007D2CDD /* UIKit.framework */; };
+		920883C71FD7EF25007D2CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883C61FD7EF1C007D2CDD /* Foundation.framework */; };
+		920883C91FD7EF34007D2CDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883C81FD7EF31007D2CDD /* CoreGraphics.framework */; };
+		920883CB1FD7EF48007D2CDD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883CA1FD7EF44007D2CDD /* SystemConfiguration.framework */; };
+		920883CD1FD7EF89007D2CDD /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883CC1FD7EF86007D2CDD /* AdSupport.framework */; };
+		920883CF1FD7EF94007D2CDD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883CE1FD7EF91007D2CDD /* CoreTelephony.framework */; };
+		920883D11FD7EFA1007D2CDD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883D01FD7EF9D007D2CDD /* StoreKit.framework */; };
+		920883D31FD7EFAD007D2CDD /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883D21FD7EFAA007D2CDD /* EventKit.framework */; };
+		920883D51FD7EFB7007D2CDD /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883D41FD7EFB4007D2CDD /* EventKitUI.framework */; };
+		920883D71FD7EFC1007D2CDD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883D61FD7EFBE007D2CDD /* MediaPlayer.framework */; };
+		920883D91FD7EFCA007D2CDD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920883D81FD7EFC7007D2CDD /* ImageIO.framework */; };
+		9260B8961FD6DA7300B7C8F7 /* RevJetSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9260B88C1FD6DA7300B7C8F7 /* RevJetSDK.framework */; };
+		9260B89B1FD6DA7300B7C8F7 /* RevJetSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9260B89A1FD6DA7300B7C8F7 /* RevJetSDKTests.m */; };
+		9260B89D1FD6DA7300B7C8F7 /* RevJetSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9260B88F1FD6DA7300B7C8F7 /* RevJetSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9260B8971FD6DA7300B7C8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9260B8831FD6DA7300B7C8F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9260B88B1FD6DA7300B7C8F7;
+			remoteInfo = RevJetSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		920882BC1FD7EB86007D2CDD /* RJCustomEventAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJCustomEventAdapter.m; sourceTree = "<group>"; };
+		920882BD1FD7EB86007D2CDD /* RJCustomEventAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJCustomEventAdapter.h; sourceTree = "<group>"; };
+		920882BE1FD7EB86007D2CDD /* RJSlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJSlot.h; sourceTree = "<group>"; };
+		920882BF1FD7EB86007D2CDD /* RJURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJURL.h; sourceTree = "<group>"; };
+		920882C01FD7EB86007D2CDD /* RJNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJNetwork.m; sourceTree = "<group>"; };
+		920882C21FD7EB86007D2CDD /* RJUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJUtilities.m; sourceTree = "<group>"; };
+		920882C31FD7EB86007D2CDD /* RJUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJUtilities.h; sourceTree = "<group>"; };
+		920882C41FD7EB87007D2CDD /* RJBaseAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJBaseAdapter.h; sourceTree = "<group>"; };
+		920882C61FD7EB87007D2CDD /* RJMRAIDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDView.h; sourceTree = "<group>"; };
+		920882C71FD7EB87007D2CDD /* RJMRAIDInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDInterstitialAdapter.m; sourceTree = "<group>"; };
+		920882C81FD7EB87007D2CDD /* RJMRAIDAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDAdapter.h; sourceTree = "<group>"; };
+		920882C91FD7EB87007D2CDD /* RJMRAIDScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDScript.h; sourceTree = "<group>"; };
+		920882CA1FD7EB87007D2CDD /* RJMRAIDViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDViewDelegate.h; sourceTree = "<group>"; };
+		920882CB1FD7EB87007D2CDD /* RJMRAID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAID.h; sourceTree = "<group>"; };
+		920882CC1FD7EB87007D2CDD /* RJMRAIDInterstitialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDInterstitialController.h; sourceTree = "<group>"; };
+		920882CD1FD7EB87007D2CDD /* RJMRAIDScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDScript.m; sourceTree = "<group>"; };
+		920882CE1FD7EB87007D2CDD /* RJMRAIDAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDAdapter.m; sourceTree = "<group>"; };
+		920882CF1FD7EB87007D2CDD /* RJMRAIDInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDInterstitialAdapter.h; sourceTree = "<group>"; };
+		920882D11FD7EB87007D2CDD /* RJMRAIDNativeExpandEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeExpandEvent.m; sourceTree = "<group>"; };
+		920882D21FD7EB87007D2CDD /* RJMRAIDNativeCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeCalendarEvent.h; sourceTree = "<group>"; };
+		920882D31FD7EB87007D2CDD /* RJMRAIDExpandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDExpandViewController.m; sourceTree = "<group>"; };
+		920882D41FD7EB87007D2CDD /* RJMRAIDNativeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeEvent.m; sourceTree = "<group>"; };
+		920882D51FD7EB87007D2CDD /* RJMRAIDNativeCloseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeCloseEvent.h; sourceTree = "<group>"; };
+		920882D61FD7EB87007D2CDD /* RJMRAIDNativeEventFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeEventFactory.h; sourceTree = "<group>"; };
+		920882D71FD7EB87007D2CDD /* RJMRAIDNativeStorePictureEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeStorePictureEvent.h; sourceTree = "<group>"; };
+		920882D81FD7EB87007D2CDD /* RJMRAIDNativeUseCustomCloseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeUseCustomCloseEvent.m; sourceTree = "<group>"; };
+		920882D91FD7EB87007D2CDD /* RJMRAIDNativeOpenEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeOpenEvent.m; sourceTree = "<group>"; };
+		920882DA1FD7EB87007D2CDD /* RJMRAIDNativePlayVideoEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativePlayVideoEvent.h; sourceTree = "<group>"; };
+		920882DB1FD7EB87007D2CDD /* RJMRAIDNativeOrientationPropertiesEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeOrientationPropertiesEvent.h; sourceTree = "<group>"; };
+		920882DC1FD7EB87007D2CDD /* RJMRAIDNativeExpandEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeExpandEvent.h; sourceTree = "<group>"; };
+		920882DD1FD7EB87007D2CDD /* RJMRAIDNativeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeEvent.h; sourceTree = "<group>"; };
+		920882DE1FD7EB87007D2CDD /* RJMRAIDExpandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDExpandViewController.h; sourceTree = "<group>"; };
+		920882DF1FD7EB87007D2CDD /* RJMRAIDNativeCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeCalendarEvent.m; sourceTree = "<group>"; };
+		920882E01FD7EB87007D2CDD /* RJMRAIDNativeEventFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeEventFactory.m; sourceTree = "<group>"; };
+		920882E11FD7EB87007D2CDD /* RJMRAIDNativeCloseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeCloseEvent.m; sourceTree = "<group>"; };
+		920882E21FD7EB87007D2CDD /* RJMRAIDNativePlayVideoEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativePlayVideoEvent.m; sourceTree = "<group>"; };
+		920882E31FD7EB87007D2CDD /* RJMRAIDNativeOrientationPropertiesEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeOrientationPropertiesEvent.m; sourceTree = "<group>"; };
+		920882E41FD7EB87007D2CDD /* RJMRAIDNativeUseCustomCloseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeUseCustomCloseEvent.h; sourceTree = "<group>"; };
+		920882E51FD7EB87007D2CDD /* RJMRAIDNativeOpenEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeOpenEvent.h; sourceTree = "<group>"; };
+		920882E61FD7EB87007D2CDD /* RJMRAIDNativeStorePictureEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeStorePictureEvent.m; sourceTree = "<group>"; };
+		920882E71FD7EB87007D2CDD /* RJMRAIDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDView.m; sourceTree = "<group>"; };
+		920882E81FD7EB87007D2CDD /* RJMRAID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAID.m; sourceTree = "<group>"; };
+		920882E91FD7EB87007D2CDD /* RJMRAIDInterstitialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDInterstitialController.m; sourceTree = "<group>"; };
+		920882EA1FD7EB87007D2CDD /* RJBaseAdapterInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJBaseAdapterInterstitial.m; sourceTree = "<group>"; };
+		920882EB1FD7EB87007D2CDD /* RJHTMLScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJHTMLScanner.h; sourceTree = "<group>"; };
+		920882EC1FD7EB87007D2CDD /* RJSlotDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJSlotDelegate.h; sourceTree = "<group>"; };
+		920882ED1FD7EB87007D2CDD /* RJSlotInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJSlotInterstitial.h; sourceTree = "<group>"; };
+		920882EE1FD7EB87007D2CDD /* RJSlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJSlotView.h; sourceTree = "<group>"; };
+		920882EF1FD7EB87007D2CDD /* RJStatusBarVisibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJStatusBarVisibility.m; sourceTree = "<group>"; };
+		920882F01FD7EB87007D2CDD /* RJHTMLScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJHTMLScanner.m; sourceTree = "<group>"; };
+		920882F11FD7EB87007D2CDD /* RJGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJGlobal.h; sourceTree = "<group>"; };
+		920882F21FD7EB87007D2CDD /* RJSlotInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJSlotInterstitial.m; sourceTree = "<group>"; };
+		920882F31FD7EB87007D2CDD /* RJBaseAdapterInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJBaseAdapterInterstitial.h; sourceTree = "<group>"; };
+		920882F51FD7EB88007D2CDD /* RJPasteboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJPasteboard.h; sourceTree = "<group>"; };
+		920882F61FD7EB88007D2CDD /* RJAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJAdapter.h; sourceTree = "<group>"; };
+		920882F71FD7EB88007D2CDD /* RJBaseInterstitialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJBaseInterstitialController.h; sourceTree = "<group>"; };
+		920882F81FD7EB88007D2CDD /* RJInterstitialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJInterstitialController.m; sourceTree = "<group>"; };
+		920882F91FD7EB88007D2CDD /* RJAdapterInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJAdapterInterstitial.m; sourceTree = "<group>"; };
+		920882FA1FD7EB88007D2CDD /* RJWebBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJWebBrowser.h; sourceTree = "<group>"; };
+		920882FB1FD7EB88007D2CDD /* RJStoreProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJStoreProductViewController.h; sourceTree = "<group>"; };
+		920882FC1FD7EB88007D2CDD /* RJWebBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJWebBrowserDelegate.h; sourceTree = "<group>"; };
+		920882FD1FD7EB88007D2CDD /* RJBaseInterstitialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJBaseInterstitialController.m; sourceTree = "<group>"; };
+		920882FE1FD7EB88007D2CDD /* RJAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJAdapter.m; sourceTree = "<group>"; };
+		920882FF1FD7EB88007D2CDD /* RJInterstitialControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJInterstitialControllerDelegate.h; sourceTree = "<group>"; };
+		920883001FD7EB88007D2CDD /* RJPasteboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJPasteboard.m; sourceTree = "<group>"; };
+		920883011FD7EB88007D2CDD /* RJStoreProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJStoreProductViewController.m; sourceTree = "<group>"; };
+		920883021FD7EB88007D2CDD /* RJWebBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJWebBrowser.m; sourceTree = "<group>"; };
+		920883031FD7EB88007D2CDD /* RJAdapterInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJAdapterInterstitial.h; sourceTree = "<group>"; };
+		920883041FD7EB88007D2CDD /* RJInterstitialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJInterstitialController.h; sourceTree = "<group>"; };
+		920883061FD7EB88007D2CDD /* RJConversionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJConversionConfig.m; sourceTree = "<group>"; };
+		920883071FD7EB88007D2CDD /* RJConversionTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJConversionTracker.m; sourceTree = "<group>"; };
+		920883081FD7EB88007D2CDD /* RJConversionCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJConversionCommon.h; sourceTree = "<group>"; };
+		920883091FD7EB88007D2CDD /* RJConversionReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJConversionReachability.h; sourceTree = "<group>"; };
+		9208830A1FD7EB88007D2CDD /* RJConversionTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJConversionTracker.h; sourceTree = "<group>"; };
+		9208830B1FD7EB88007D2CDD /* RJConversionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJConversionConfig.h; sourceTree = "<group>"; };
+		9208830C1FD7EB88007D2CDD /* RJConversionReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJConversionReachability.m; sourceTree = "<group>"; };
+		9208830D1FD7EB88007D2CDD /* RJConversionCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJConversionCommon.m; sourceTree = "<group>"; };
+		9208830E1FD7EB88007D2CDD /* RJAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJAdapterDelegate.h; sourceTree = "<group>"; };
+		9208830F1FD7EB88007D2CDD /* RJGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJGlobal.m; sourceTree = "<group>"; };
+		920883101FD7EB88007D2CDD /* RJNetworkInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJNetworkInterstitial.m; sourceTree = "<group>"; };
+		920883111FD7EB88007D2CDD /* RJSlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJSlot.m; sourceTree = "<group>"; };
+		920883131FD7EB88007D2CDD /* RJNetworkMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJNetworkMapping.h; sourceTree = "<group>"; };
+		920883141FD7EB88007D2CDD /* RJReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJReachability.m; sourceTree = "<group>"; };
+		920883161FD7EB89007D2CDD /* RJSlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJSlotView.m; sourceTree = "<group>"; };
+		920883171FD7EB89007D2CDD /* RJStatusBarVisibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJStatusBarVisibility.h; sourceTree = "<group>"; };
+		920883181FD7EB89007D2CDD /* RJURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJURL.m; sourceTree = "<group>"; };
+		9208831A1FD7EB89007D2CDD /* RJPixelsTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJPixelsTracker.h; sourceTree = "<group>"; };
+		9208831B1FD7EB89007D2CDD /* RJPixelsQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJPixelsQueue.m; sourceTree = "<group>"; };
+		9208831C1FD7EB89007D2CDD /* RJPixelsQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJPixelsQueue.h; sourceTree = "<group>"; };
+		9208831D1FD7EB89007D2CDD /* RJPixelsTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJPixelsTracker.m; sourceTree = "<group>"; };
+		9208831E1FD7EB89007D2CDD /* RJBaseAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJBaseAdapter.m; sourceTree = "<group>"; };
+		9208831F1FD7EB89007D2CDD /* RJNetworkMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJNetworkMapping.m; sourceTree = "<group>"; };
+		920883201FD7EB89007D2CDD /* RJSlotViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJSlotViewDelegate.h; sourceTree = "<group>"; };
+		920883211FD7EB89007D2CDD /* RJNetworkInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJNetworkInterstitial.h; sourceTree = "<group>"; };
+		920883221FD7EB8A007D2CDD /* RJNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJNetwork.h; sourceTree = "<group>"; };
+		920883231FD7EB8A007D2CDD /* RJReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJReachability.h; sourceTree = "<group>"; };
+		920883261FD7EB8A007D2CDD /* RJVASTToolbarViewCountdownElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTToolbarViewCountdownElement.h; sourceTree = "<group>"; };
+		920883271FD7EB8A007D2CDD /* RJVASTToolbarViewCloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTToolbarViewCloseButton.m; sourceTree = "<group>"; };
+		920883281FD7EB8A007D2CDD /* RJVASTToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTToolbarView.h; sourceTree = "<group>"; };
+		920883291FD7EB8A007D2CDD /* RJVASTToolbarViewLearnMoreButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTToolbarViewLearnMoreButton.m; sourceTree = "<group>"; };
+		9208832A1FD7EB8A007D2CDD /* RJVASTToolbarViewCountdownElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTToolbarViewCountdownElement.m; sourceTree = "<group>"; };
+		9208832B1FD7EB8A007D2CDD /* RJVASTToolbarViewCloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTToolbarViewCloseButton.h; sourceTree = "<group>"; };
+		9208832C1FD7EB8A007D2CDD /* RJVASTToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTToolbarView.m; sourceTree = "<group>"; };
+		9208832D1FD7EB8A007D2CDD /* RJVASTToolbarViewLearnMoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTToolbarViewLearnMoreButton.h; sourceTree = "<group>"; };
+		9208832E1FD7EB8A007D2CDD /* RJVASTInterstitialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTInterstitialController.m; sourceTree = "<group>"; };
+		9208832F1FD7EB8A007D2CDD /* RJVASTInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTInterstitialAdapter.m; sourceTree = "<group>"; };
+		920883311FD7EB8A007D2CDD /* RJXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJXMLParser.m; sourceTree = "<group>"; };
+		920883321FD7EB8A007D2CDD /* RJVASTXMLParserAggregator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTXMLParserAggregator.h; sourceTree = "<group>"; };
+		920883331FD7EB8A007D2CDD /* RJXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJXMLParser.h; sourceTree = "<group>"; };
+		920883341FD7EB8A007D2CDD /* RJVASTXMLParserAggregator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTXMLParserAggregator.m; sourceTree = "<group>"; };
+		920883361FD7EB8A007D2CDD /* RJVASTCompanionAdRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTCompanionAdRepresentation.m; sourceTree = "<group>"; };
+		920883371FD7EB8A007D2CDD /* RJVASTMediaFileRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTMediaFileRepresentation.h; sourceTree = "<group>"; };
+		920883381FD7EB8A007D2CDD /* RJVASTRepresentationUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTRepresentationUtilities.m; sourceTree = "<group>"; };
+		920883391FD7EB8A007D2CDD /* RJVASTAdRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTAdRepresentation.h; sourceTree = "<group>"; };
+		9208833A1FD7EB8A007D2CDD /* RJVASTComponentRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTComponentRepresentation.h; sourceTree = "<group>"; };
+		9208833B1FD7EB8A007D2CDD /* RJVASTMediaFileRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTMediaFileRepresentation.m; sourceTree = "<group>"; };
+		9208833C1FD7EB8A007D2CDD /* RJVASTCompanionAdRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTCompanionAdRepresentation.h; sourceTree = "<group>"; };
+		9208833D1FD7EB8A007D2CDD /* RJVASTRepresentationUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTRepresentationUtilities.h; sourceTree = "<group>"; };
+		9208833E1FD7EB8A007D2CDD /* RJVASTComponentRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTComponentRepresentation.m; sourceTree = "<group>"; };
+		9208833F1FD7EB8A007D2CDD /* RJVASTAdRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJVASTAdRepresentation.m; sourceTree = "<group>"; };
+		920883411FD7EB8A007D2CDD /* RJUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJUIImage.m; sourceTree = "<group>"; };
+		920883421FD7EB8A007D2CDD /* RJUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJUIImage.h; sourceTree = "<group>"; };
+		920883431FD7EB8A007D2CDD /* RJVASTInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTInterstitialAdapter.h; sourceTree = "<group>"; };
+		920883441FD7EB8A007D2CDD /* RJVASTInterstitialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJVASTInterstitialController.h; sourceTree = "<group>"; };
+		920883C41FD7EE93007D2CDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		920883C61FD7EF1C007D2CDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		920883C81FD7EF31007D2CDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		920883CA1FD7EF44007D2CDD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		920883CC1FD7EF86007D2CDD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		920883CE1FD7EF91007D2CDD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		920883D01FD7EF9D007D2CDD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		920883D21FD7EFAA007D2CDD /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		920883D41FD7EFB4007D2CDD /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		920883D61FD7EFBE007D2CDD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		920883D81FD7EFC7007D2CDD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		9260B88C1FD6DA7300B7C8F7 /* RevJetSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RevJetSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9260B88F1FD6DA7300B7C8F7 /* RevJetSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevJetSDK.h; sourceTree = "<group>"; };
+		9260B8901FD6DA7300B7C8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9260B8951FD6DA7300B7C8F7 /* RevJetSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevJetSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9260B89A1FD6DA7300B7C8F7 /* RevJetSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevJetSDKTests.m; sourceTree = "<group>"; };
+		9260B89C1FD6DA7300B7C8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9260B8881FD6DA7300B7C8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920883D31FD7EFAD007D2CDD /* EventKit.framework in Frameworks */,
+				920883D51FD7EFB7007D2CDD /* EventKitUI.framework in Frameworks */,
+				920883C91FD7EF34007D2CDD /* CoreGraphics.framework in Frameworks */,
+				920883D11FD7EFA1007D2CDD /* StoreKit.framework in Frameworks */,
+				920883CD1FD7EF89007D2CDD /* AdSupport.framework in Frameworks */,
+				920883C51FD7EED1007D2CDD /* UIKit.framework in Frameworks */,
+				920883D71FD7EFC1007D2CDD /* MediaPlayer.framework in Frameworks */,
+				920883D91FD7EFCA007D2CDD /* ImageIO.framework in Frameworks */,
+				920883CB1FD7EF48007D2CDD /* SystemConfiguration.framework in Frameworks */,
+				920883CF1FD7EF94007D2CDD /* CoreTelephony.framework in Frameworks */,
+				920883C71FD7EF25007D2CDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9260B8921FD6DA7300B7C8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9260B8961FD6DA7300B7C8F7 /* RevJetSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920882BB1FD7EB86007D2CDD /* CustomEvent */ = {
+			isa = PBXGroup;
+			children = (
+				920882BC1FD7EB86007D2CDD /* RJCustomEventAdapter.m */,
+				920882BD1FD7EB86007D2CDD /* RJCustomEventAdapter.h */,
+			);
+			path = CustomEvent;
+			sourceTree = "<group>";
+		};
+		920882C11FD7EB86007D2CDD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				920882C21FD7EB86007D2CDD /* RJUtilities.m */,
+				920882C31FD7EB86007D2CDD /* RJUtilities.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		920882C51FD7EB87007D2CDD /* MRAID */ = {
+			isa = PBXGroup;
+			children = (
+				920882D01FD7EB87007D2CDD /* NativeEvents */,
+				920882C61FD7EB87007D2CDD /* RJMRAIDView.h */,
+				920882C71FD7EB87007D2CDD /* RJMRAIDInterstitialAdapter.m */,
+				920882C81FD7EB87007D2CDD /* RJMRAIDAdapter.h */,
+				920882C91FD7EB87007D2CDD /* RJMRAIDScript.h */,
+				920882CA1FD7EB87007D2CDD /* RJMRAIDViewDelegate.h */,
+				920882CB1FD7EB87007D2CDD /* RJMRAID.h */,
+				920882CC1FD7EB87007D2CDD /* RJMRAIDInterstitialController.h */,
+				920882CD1FD7EB87007D2CDD /* RJMRAIDScript.m */,
+				920882CE1FD7EB87007D2CDD /* RJMRAIDAdapter.m */,
+				920882CF1FD7EB87007D2CDD /* RJMRAIDInterstitialAdapter.h */,
+				920882E71FD7EB87007D2CDD /* RJMRAIDView.m */,
+				920882E81FD7EB87007D2CDD /* RJMRAID.m */,
+				920882E91FD7EB87007D2CDD /* RJMRAIDInterstitialController.m */,
+			);
+			path = MRAID;
+			sourceTree = "<group>";
+		};
+		920882D01FD7EB87007D2CDD /* NativeEvents */ = {
+			isa = PBXGroup;
+			children = (
+				920882D11FD7EB87007D2CDD /* RJMRAIDNativeExpandEvent.m */,
+				920882D21FD7EB87007D2CDD /* RJMRAIDNativeCalendarEvent.h */,
+				920882D31FD7EB87007D2CDD /* RJMRAIDExpandViewController.m */,
+				920882D41FD7EB87007D2CDD /* RJMRAIDNativeEvent.m */,
+				920882D51FD7EB87007D2CDD /* RJMRAIDNativeCloseEvent.h */,
+				920882D61FD7EB87007D2CDD /* RJMRAIDNativeEventFactory.h */,
+				920882D71FD7EB87007D2CDD /* RJMRAIDNativeStorePictureEvent.h */,
+				920882D81FD7EB87007D2CDD /* RJMRAIDNativeUseCustomCloseEvent.m */,
+				920882D91FD7EB87007D2CDD /* RJMRAIDNativeOpenEvent.m */,
+				920882DA1FD7EB87007D2CDD /* RJMRAIDNativePlayVideoEvent.h */,
+				920882DB1FD7EB87007D2CDD /* RJMRAIDNativeOrientationPropertiesEvent.h */,
+				920882DC1FD7EB87007D2CDD /* RJMRAIDNativeExpandEvent.h */,
+				920882DD1FD7EB87007D2CDD /* RJMRAIDNativeEvent.h */,
+				920882DE1FD7EB87007D2CDD /* RJMRAIDExpandViewController.h */,
+				920882DF1FD7EB87007D2CDD /* RJMRAIDNativeCalendarEvent.m */,
+				920882E01FD7EB87007D2CDD /* RJMRAIDNativeEventFactory.m */,
+				920882E11FD7EB87007D2CDD /* RJMRAIDNativeCloseEvent.m */,
+				920882E21FD7EB87007D2CDD /* RJMRAIDNativePlayVideoEvent.m */,
+				920882E31FD7EB87007D2CDD /* RJMRAIDNativeOrientationPropertiesEvent.m */,
+				920882E41FD7EB87007D2CDD /* RJMRAIDNativeUseCustomCloseEvent.h */,
+				920882E51FD7EB87007D2CDD /* RJMRAIDNativeOpenEvent.h */,
+				920882E61FD7EB87007D2CDD /* RJMRAIDNativeStorePictureEvent.m */,
+			);
+			path = NativeEvents;
+			sourceTree = "<group>";
+		};
+		920882F41FD7EB88007D2CDD /* RJ */ = {
+			isa = PBXGroup;
+			children = (
+				920882F51FD7EB88007D2CDD /* RJPasteboard.h */,
+				920883001FD7EB88007D2CDD /* RJPasteboard.m */,
+				920882F61FD7EB88007D2CDD /* RJAdapter.h */,
+				920882FE1FD7EB88007D2CDD /* RJAdapter.m */,
+				920882F71FD7EB88007D2CDD /* RJBaseInterstitialController.h */,
+				920882FD1FD7EB88007D2CDD /* RJBaseInterstitialController.m */,
+				920883041FD7EB88007D2CDD /* RJInterstitialController.h */,
+				920882F81FD7EB88007D2CDD /* RJInterstitialController.m */,
+				920883031FD7EB88007D2CDD /* RJAdapterInterstitial.h */,
+				920882F91FD7EB88007D2CDD /* RJAdapterInterstitial.m */,
+				920882FA1FD7EB88007D2CDD /* RJWebBrowser.h */,
+				920883021FD7EB88007D2CDD /* RJWebBrowser.m */,
+				920882FB1FD7EB88007D2CDD /* RJStoreProductViewController.h */,
+				920883011FD7EB88007D2CDD /* RJStoreProductViewController.m */,
+				920882FC1FD7EB88007D2CDD /* RJWebBrowserDelegate.h */,
+				920882FF1FD7EB88007D2CDD /* RJInterstitialControllerDelegate.h */,
+			);
+			path = RJ;
+			sourceTree = "<group>";
+		};
+		920883051FD7EB88007D2CDD /* ConversionTracker */ = {
+			isa = PBXGroup;
+			children = (
+				920883061FD7EB88007D2CDD /* RJConversionConfig.m */,
+				920883071FD7EB88007D2CDD /* RJConversionTracker.m */,
+				920883081FD7EB88007D2CDD /* RJConversionCommon.h */,
+				920883091FD7EB88007D2CDD /* RJConversionReachability.h */,
+				9208830A1FD7EB88007D2CDD /* RJConversionTracker.h */,
+				9208830B1FD7EB88007D2CDD /* RJConversionConfig.h */,
+				9208830C1FD7EB88007D2CDD /* RJConversionReachability.m */,
+				9208830D1FD7EB88007D2CDD /* RJConversionCommon.m */,
+			);
+			path = ConversionTracker;
+			sourceTree = "<group>";
+		};
+		920883191FD7EB89007D2CDD /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				9208831A1FD7EB89007D2CDD /* RJPixelsTracker.h */,
+				9208831B1FD7EB89007D2CDD /* RJPixelsQueue.m */,
+				9208831C1FD7EB89007D2CDD /* RJPixelsQueue.h */,
+				9208831D1FD7EB89007D2CDD /* RJPixelsTracker.m */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		920883241FD7EB8A007D2CDD /* VAST */ = {
+			isa = PBXGroup;
+			children = (
+				920883401FD7EB8A007D2CDD /* AnimatedGIF */,
+				920883301FD7EB8A007D2CDD /* Parser */,
+				920883351FD7EB8A007D2CDD /* Representation */,
+				920883251FD7EB8A007D2CDD /* Toolbar */,
+				9208832E1FD7EB8A007D2CDD /* RJVASTInterstitialController.m */,
+				9208832F1FD7EB8A007D2CDD /* RJVASTInterstitialAdapter.m */,
+				920883431FD7EB8A007D2CDD /* RJVASTInterstitialAdapter.h */,
+				920883441FD7EB8A007D2CDD /* RJVASTInterstitialController.h */,
+			);
+			path = VAST;
+			sourceTree = "<group>";
+		};
+		920883251FD7EB8A007D2CDD /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				920883261FD7EB8A007D2CDD /* RJVASTToolbarViewCountdownElement.h */,
+				920883271FD7EB8A007D2CDD /* RJVASTToolbarViewCloseButton.m */,
+				920883281FD7EB8A007D2CDD /* RJVASTToolbarView.h */,
+				920883291FD7EB8A007D2CDD /* RJVASTToolbarViewLearnMoreButton.m */,
+				9208832A1FD7EB8A007D2CDD /* RJVASTToolbarViewCountdownElement.m */,
+				9208832B1FD7EB8A007D2CDD /* RJVASTToolbarViewCloseButton.h */,
+				9208832C1FD7EB8A007D2CDD /* RJVASTToolbarView.m */,
+				9208832D1FD7EB8A007D2CDD /* RJVASTToolbarViewLearnMoreButton.h */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		920883301FD7EB8A007D2CDD /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				920883311FD7EB8A007D2CDD /* RJXMLParser.m */,
+				920883321FD7EB8A007D2CDD /* RJVASTXMLParserAggregator.h */,
+				920883331FD7EB8A007D2CDD /* RJXMLParser.h */,
+				920883341FD7EB8A007D2CDD /* RJVASTXMLParserAggregator.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		920883351FD7EB8A007D2CDD /* Representation */ = {
+			isa = PBXGroup;
+			children = (
+				920883361FD7EB8A007D2CDD /* RJVASTCompanionAdRepresentation.m */,
+				920883371FD7EB8A007D2CDD /* RJVASTMediaFileRepresentation.h */,
+				920883381FD7EB8A007D2CDD /* RJVASTRepresentationUtilities.m */,
+				920883391FD7EB8A007D2CDD /* RJVASTAdRepresentation.h */,
+				9208833A1FD7EB8A007D2CDD /* RJVASTComponentRepresentation.h */,
+				9208833B1FD7EB8A007D2CDD /* RJVASTMediaFileRepresentation.m */,
+				9208833C1FD7EB8A007D2CDD /* RJVASTCompanionAdRepresentation.h */,
+				9208833D1FD7EB8A007D2CDD /* RJVASTRepresentationUtilities.h */,
+				9208833E1FD7EB8A007D2CDD /* RJVASTComponentRepresentation.m */,
+				9208833F1FD7EB8A007D2CDD /* RJVASTAdRepresentation.m */,
+			);
+			path = Representation;
+			sourceTree = "<group>";
+		};
+		920883401FD7EB8A007D2CDD /* AnimatedGIF */ = {
+			isa = PBXGroup;
+			children = (
+				920883411FD7EB8A007D2CDD /* RJUIImage.m */,
+				920883421FD7EB8A007D2CDD /* RJUIImage.h */,
+			);
+			path = AnimatedGIF;
+			sourceTree = "<group>";
+		};
+		920883C31FD7EE92007D2CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				920883D81FD7EFC7007D2CDD /* ImageIO.framework */,
+				920883D61FD7EFBE007D2CDD /* MediaPlayer.framework */,
+				920883D41FD7EFB4007D2CDD /* EventKitUI.framework */,
+				920883D21FD7EFAA007D2CDD /* EventKit.framework */,
+				920883D01FD7EF9D007D2CDD /* StoreKit.framework */,
+				920883CE1FD7EF91007D2CDD /* CoreTelephony.framework */,
+				920883CC1FD7EF86007D2CDD /* AdSupport.framework */,
+				920883CA1FD7EF44007D2CDD /* SystemConfiguration.framework */,
+				920883C81FD7EF31007D2CDD /* CoreGraphics.framework */,
+				920883C61FD7EF1C007D2CDD /* Foundation.framework */,
+				920883C41FD7EE93007D2CDD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9260B8821FD6DA7300B7C8F7 = {
+			isa = PBXGroup;
+			children = (
+				9260B88E1FD6DA7300B7C8F7 /* RevJetSDK */,
+				9260B8991FD6DA7300B7C8F7 /* RevJetSDKTests */,
+				9260B88D1FD6DA7300B7C8F7 /* Products */,
+				920883C31FD7EE92007D2CDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9260B88D1FD6DA7300B7C8F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9260B88C1FD6DA7300B7C8F7 /* RevJetSDK.framework */,
+				9260B8951FD6DA7300B7C8F7 /* RevJetSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9260B88E1FD6DA7300B7C8F7 /* RevJetSDK */ = {
+			isa = PBXGroup;
+			children = (
+				920883191FD7EB89007D2CDD /* Analytics */,
+				920883051FD7EB88007D2CDD /* ConversionTracker */,
+				920882BB1FD7EB86007D2CDD /* CustomEvent */,
+				920882F41FD7EB88007D2CDD /* RJ */,
+				920882C51FD7EB87007D2CDD /* MRAID */,
+				920882C11FD7EB86007D2CDD /* Utilities */,
+				920883241FD7EB8A007D2CDD /* VAST */,
+				9208830E1FD7EB88007D2CDD /* RJAdapterDelegate.h */,
+				920882C41FD7EB87007D2CDD /* RJBaseAdapter.h */,
+				9208831E1FD7EB89007D2CDD /* RJBaseAdapter.m */,
+				920882F31FD7EB87007D2CDD /* RJBaseAdapterInterstitial.h */,
+				920882EA1FD7EB87007D2CDD /* RJBaseAdapterInterstitial.m */,
+				920882F11FD7EB87007D2CDD /* RJGlobal.h */,
+				9208830F1FD7EB88007D2CDD /* RJGlobal.m */,
+				920882EB1FD7EB87007D2CDD /* RJHTMLScanner.h */,
+				920882F01FD7EB87007D2CDD /* RJHTMLScanner.m */,
+				920883221FD7EB8A007D2CDD /* RJNetwork.h */,
+				920882C01FD7EB86007D2CDD /* RJNetwork.m */,
+				920883211FD7EB89007D2CDD /* RJNetworkInterstitial.h */,
+				920883101FD7EB88007D2CDD /* RJNetworkInterstitial.m */,
+				920883131FD7EB88007D2CDD /* RJNetworkMapping.h */,
+				9208831F1FD7EB89007D2CDD /* RJNetworkMapping.m */,
+				920883231FD7EB8A007D2CDD /* RJReachability.h */,
+				920883141FD7EB88007D2CDD /* RJReachability.m */,
+				920882BE1FD7EB86007D2CDD /* RJSlot.h */,
+				920883111FD7EB88007D2CDD /* RJSlot.m */,
+				920882EC1FD7EB87007D2CDD /* RJSlotDelegate.h */,
+				920882ED1FD7EB87007D2CDD /* RJSlotInterstitial.h */,
+				920882F21FD7EB87007D2CDD /* RJSlotInterstitial.m */,
+				920882EE1FD7EB87007D2CDD /* RJSlotView.h */,
+				920883161FD7EB89007D2CDD /* RJSlotView.m */,
+				920883201FD7EB89007D2CDD /* RJSlotViewDelegate.h */,
+				920883171FD7EB89007D2CDD /* RJStatusBarVisibility.h */,
+				920882EF1FD7EB87007D2CDD /* RJStatusBarVisibility.m */,
+				920882BF1FD7EB86007D2CDD /* RJURL.h */,
+				920883181FD7EB89007D2CDD /* RJURL.m */,
+				9260B88F1FD6DA7300B7C8F7 /* RevJetSDK.h */,
+				9260B8901FD6DA7300B7C8F7 /* Info.plist */,
+			);
+			path = RevJetSDK;
+			sourceTree = "<group>";
+		};
+		9260B8991FD6DA7300B7C8F7 /* RevJetSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				9260B89A1FD6DA7300B7C8F7 /* RevJetSDKTests.m */,
+				9260B89C1FD6DA7300B7C8F7 /* Info.plist */,
+			);
+			path = RevJetSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9260B8891FD6DA7300B7C8F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920883741FD7EB8A007D2CDD /* RJSlotView.h in Headers */,
+				920883A31FD7EB8A007D2CDD /* RJSlotViewDelegate.h in Headers */,
+				920883731FD7EB8A007D2CDD /* RJSlotInterstitial.h in Headers */,
+				920883721FD7EB8A007D2CDD /* RJSlotDelegate.h in Headers */,
+				920883471FD7EB8A007D2CDD /* RJSlot.h in Headers */,
+				9208834C1FD7EB8A007D2CDD /* RJBaseAdapter.h in Headers */,
+				920883921FD7EB8A007D2CDD /* RJAdapterDelegate.h in Headers */,
+				920883891FD7EB8A007D2CDD /* RJInterstitialController.h in Headers */,
+				920883501FD7EB8A007D2CDD /* RJMRAIDScript.h in Headers */,
+				920883B91FD7EB8A007D2CDD /* RJVASTComponentRepresentation.h in Headers */,
+				920883B61FD7EB8A007D2CDD /* RJVASTMediaFileRepresentation.h in Headers */,
+				920883A91FD7EB8A007D2CDD /* RJVASTToolbarView.h in Headers */,
+				9208838F1FD7EB8A007D2CDD /* RJConversionConfig.h in Headers */,
+				920883581FD7EB8A007D2CDD /* RJMRAIDNativeCalendarEvent.h in Headers */,
+				920883A51FD7EB8A007D2CDD /* RJNetwork.h in Headers */,
+				920883B31FD7EB8A007D2CDD /* RJXMLParser.h in Headers */,
+				920883711FD7EB8A007D2CDD /* RJHTMLScanner.h in Headers */,
+				920883AC1FD7EB8A007D2CDD /* RJVASTToolbarViewCloseButton.h in Headers */,
+				920883641FD7EB8A007D2CDD /* RJMRAIDExpandViewController.h in Headers */,
+				9208836B1FD7EB8A007D2CDD /* RJMRAIDNativeOpenEvent.h in Headers */,
+				9208838C1FD7EB8A007D2CDD /* RJConversionCommon.h in Headers */,
+				9208836A1FD7EB8A007D2CDD /* RJMRAIDNativeUseCustomCloseEvent.h in Headers */,
+				920883791FD7EB8A007D2CDD /* RJBaseAdapterInterstitial.h in Headers */,
+				9208834B1FD7EB8A007D2CDD /* RJUtilities.h in Headers */,
+				9208835B1FD7EB8A007D2CDD /* RJMRAIDNativeCloseEvent.h in Headers */,
+				920883AE1FD7EB8A007D2CDD /* RJVASTToolbarViewLearnMoreButton.h in Headers */,
+				920883811FD7EB8A007D2CDD /* RJWebBrowserDelegate.h in Headers */,
+				9208835D1FD7EB8A007D2CDD /* RJMRAIDNativeStorePictureEvent.h in Headers */,
+				920883631FD7EB8A007D2CDD /* RJMRAIDNativeEvent.h in Headers */,
+				920883611FD7EB8A007D2CDD /* RJMRAIDNativeOrientationPropertiesEvent.h in Headers */,
+				9208837C1FD7EB8A007D2CDD /* RJBaseInterstitialController.h in Headers */,
+				920883531FD7EB8A007D2CDD /* RJMRAIDInterstitialController.h in Headers */,
+				920883771FD7EB8A007D2CDD /* RJGlobal.h in Headers */,
+				9208839D1FD7EB8A007D2CDD /* RJPixelsTracker.h in Headers */,
+				9208837B1FD7EB8A007D2CDD /* RJAdapter.h in Headers */,
+				920883BC1FD7EB8A007D2CDD /* RJVASTRepresentationUtilities.h in Headers */,
+				920883621FD7EB8A007D2CDD /* RJMRAIDNativeExpandEvent.h in Headers */,
+				9208837A1FD7EB8A007D2CDD /* RJPasteboard.h in Headers */,
+				920883BB1FD7EB8A007D2CDD /* RJVASTCompanionAdRepresentation.h in Headers */,
+				9208837F1FD7EB8A007D2CDD /* RJWebBrowser.h in Headers */,
+				920883841FD7EB8A007D2CDD /* RJInterstitialControllerDelegate.h in Headers */,
+				9208834F1FD7EB8A007D2CDD /* RJMRAIDAdapter.h in Headers */,
+				920883481FD7EB8A007D2CDD /* RJURL.h in Headers */,
+				920883A61FD7EB8A007D2CDD /* RJReachability.h in Headers */,
+				9208839B1FD7EB8A007D2CDD /* RJStatusBarVisibility.h in Headers */,
+				920883971FD7EB8A007D2CDD /* RJNetworkMapping.h in Headers */,
+				920883A71FD7EB8A007D2CDD /* RJVASTToolbarViewCountdownElement.h in Headers */,
+				9260B89D1FD6DA7300B7C8F7 /* RevJetSDK.h in Headers */,
+				920883C11FD7EB8A007D2CDD /* RJVASTInterstitialAdapter.h in Headers */,
+				9208838E1FD7EB8A007D2CDD /* RJConversionTracker.h in Headers */,
+				920883881FD7EB8A007D2CDD /* RJAdapterInterstitial.h in Headers */,
+				920883B81FD7EB8A007D2CDD /* RJVASTAdRepresentation.h in Headers */,
+				9208838D1FD7EB8A007D2CDD /* RJConversionReachability.h in Headers */,
+				920883521FD7EB8A007D2CDD /* RJMRAID.h in Headers */,
+				9208834D1FD7EB8A007D2CDD /* RJMRAIDView.h in Headers */,
+				920883601FD7EB8A007D2CDD /* RJMRAIDNativePlayVideoEvent.h in Headers */,
+				920883C01FD7EB8A007D2CDD /* RJUIImage.h in Headers */,
+				9208835C1FD7EB8A007D2CDD /* RJMRAIDNativeEventFactory.h in Headers */,
+				9208839F1FD7EB8A007D2CDD /* RJPixelsQueue.h in Headers */,
+				920883A41FD7EB8A007D2CDD /* RJNetworkInterstitial.h in Headers */,
+				920883461FD7EB8A007D2CDD /* RJCustomEventAdapter.h in Headers */,
+				920883C21FD7EB8A007D2CDD /* RJVASTInterstitialController.h in Headers */,
+				920883B21FD7EB8A007D2CDD /* RJVASTXMLParserAggregator.h in Headers */,
+				920883561FD7EB8A007D2CDD /* RJMRAIDInterstitialAdapter.h in Headers */,
+				920883801FD7EB8A007D2CDD /* RJStoreProductViewController.h in Headers */,
+				920883511FD7EB8A007D2CDD /* RJMRAIDViewDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9260B88B1FD6DA7300B7C8F7 /* RevJetSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9260B8A01FD6DA7300B7C8F7 /* Build configuration list for PBXNativeTarget "RevJetSDK" */;
+			buildPhases = (
+				9260B8871FD6DA7300B7C8F7 /* Sources */,
+				9260B8881FD6DA7300B7C8F7 /* Frameworks */,
+				9260B8891FD6DA7300B7C8F7 /* Headers */,
+				9260B88A1FD6DA7300B7C8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevJetSDK;
+			productName = RevJetSDK;
+			productReference = 9260B88C1FD6DA7300B7C8F7 /* RevJetSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9260B8941FD6DA7300B7C8F7 /* RevJetSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9260B8A31FD6DA7300B7C8F7 /* Build configuration list for PBXNativeTarget "RevJetSDKTests" */;
+			buildPhases = (
+				9260B8911FD6DA7300B7C8F7 /* Sources */,
+				9260B8921FD6DA7300B7C8F7 /* Frameworks */,
+				9260B8931FD6DA7300B7C8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9260B8981FD6DA7300B7C8F7 /* PBXTargetDependency */,
+			);
+			name = RevJetSDKTests;
+			productName = RevJetSDKTests;
+			productReference = 9260B8951FD6DA7300B7C8F7 /* RevJetSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9260B8831FD6DA7300B7C8F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = RevJet;
+				TargetAttributes = {
+					9260B88B1FD6DA7300B7C8F7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					9260B8941FD6DA7300B7C8F7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9260B8861FD6DA7300B7C8F7 /* Build configuration list for PBXProject "RevJetSDK" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9260B8821FD6DA7300B7C8F7;
+			productRefGroup = 9260B88D1FD6DA7300B7C8F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9260B88B1FD6DA7300B7C8F7 /* RevJetSDK */,
+				9260B8941FD6DA7300B7C8F7 /* RevJetSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9260B88A1FD6DA7300B7C8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9260B8931FD6DA7300B7C8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9260B8871FD6DA7300B7C8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920883691FD7EB8A007D2CDD /* RJMRAIDNativeOrientationPropertiesEvent.m in Sources */,
+				920883B11FD7EB8A007D2CDD /* RJXMLParser.m in Sources */,
+				9208834A1FD7EB8A007D2CDD /* RJUtilities.m in Sources */,
+				9208836C1FD7EB8A007D2CDD /* RJMRAIDNativeStorePictureEvent.m in Sources */,
+				920883931FD7EB8A007D2CDD /* RJGlobal.m in Sources */,
+				920883901FD7EB8A007D2CDD /* RJConversionReachability.m in Sources */,
+				9208836D1FD7EB8A007D2CDD /* RJMRAIDView.m in Sources */,
+				9208837E1FD7EB8A007D2CDD /* RJAdapterInterstitial.m in Sources */,
+				920883BE1FD7EB8A007D2CDD /* RJVASTAdRepresentation.m in Sources */,
+				920883671FD7EB8A007D2CDD /* RJMRAIDNativeCloseEvent.m in Sources */,
+				9208839C1FD7EB8A007D2CDD /* RJURL.m in Sources */,
+				920883871FD7EB8A007D2CDD /* RJWebBrowser.m in Sources */,
+				920883A81FD7EB8A007D2CDD /* RJVASTToolbarViewCloseButton.m in Sources */,
+				920883851FD7EB8A007D2CDD /* RJPasteboard.m in Sources */,
+				9208838B1FD7EB8A007D2CDD /* RJConversionTracker.m in Sources */,
+				920883861FD7EB8A007D2CDD /* RJStoreProductViewController.m in Sources */,
+				920883951FD7EB8A007D2CDD /* RJSlot.m in Sources */,
+				920883B71FD7EB8A007D2CDD /* RJVASTRepresentationUtilities.m in Sources */,
+				9208839A1FD7EB8A007D2CDD /* RJSlotView.m in Sources */,
+				920883AB1FD7EB8A007D2CDD /* RJVASTToolbarViewCountdownElement.m in Sources */,
+				920883911FD7EB8A007D2CDD /* RJConversionCommon.m in Sources */,
+				920883681FD7EB8A007D2CDD /* RJMRAIDNativePlayVideoEvent.m in Sources */,
+				920883661FD7EB8A007D2CDD /* RJMRAIDNativeEventFactory.m in Sources */,
+				920883A01FD7EB8A007D2CDD /* RJPixelsTracker.m in Sources */,
+				920883B41FD7EB8A007D2CDD /* RJVASTXMLParserAggregator.m in Sources */,
+				920883701FD7EB8A007D2CDD /* RJBaseAdapterInterstitial.m in Sources */,
+				920883A11FD7EB8A007D2CDD /* RJBaseAdapter.m in Sources */,
+				920883591FD7EB8A007D2CDD /* RJMRAIDExpandViewController.m in Sources */,
+				920883BF1FD7EB8A007D2CDD /* RJUIImage.m in Sources */,
+				9208836E1FD7EB8A007D2CDD /* RJMRAID.m in Sources */,
+				920883941FD7EB8A007D2CDD /* RJNetworkInterstitial.m in Sources */,
+				920883781FD7EB8A007D2CDD /* RJSlotInterstitial.m in Sources */,
+				920883451FD7EB8A007D2CDD /* RJCustomEventAdapter.m in Sources */,
+				9208834E1FD7EB8A007D2CDD /* RJMRAIDInterstitialAdapter.m in Sources */,
+				920883761FD7EB8A007D2CDD /* RJHTMLScanner.m in Sources */,
+				920883651FD7EB8A007D2CDD /* RJMRAIDNativeCalendarEvent.m in Sources */,
+				9208837D1FD7EB8A007D2CDD /* RJInterstitialController.m in Sources */,
+				920883AA1FD7EB8A007D2CDD /* RJVASTToolbarViewLearnMoreButton.m in Sources */,
+				920883BD1FD7EB8A007D2CDD /* RJVASTComponentRepresentation.m in Sources */,
+				9208836F1FD7EB8A007D2CDD /* RJMRAIDInterstitialController.m in Sources */,
+				9208839E1FD7EB8A007D2CDD /* RJPixelsQueue.m in Sources */,
+				920883491FD7EB8A007D2CDD /* RJNetwork.m in Sources */,
+				920883AF1FD7EB8A007D2CDD /* RJVASTInterstitialController.m in Sources */,
+				920883AD1FD7EB8A007D2CDD /* RJVASTToolbarView.m in Sources */,
+				9208835A1FD7EB8A007D2CDD /* RJMRAIDNativeEvent.m in Sources */,
+				920883751FD7EB8A007D2CDD /* RJStatusBarVisibility.m in Sources */,
+				9208838A1FD7EB8A007D2CDD /* RJConversionConfig.m in Sources */,
+				920883BA1FD7EB8A007D2CDD /* RJVASTMediaFileRepresentation.m in Sources */,
+				9208835E1FD7EB8A007D2CDD /* RJMRAIDNativeUseCustomCloseEvent.m in Sources */,
+				920883981FD7EB8A007D2CDD /* RJReachability.m in Sources */,
+				920883551FD7EB8A007D2CDD /* RJMRAIDAdapter.m in Sources */,
+				920883571FD7EB8A007D2CDD /* RJMRAIDNativeExpandEvent.m in Sources */,
+				920883831FD7EB8A007D2CDD /* RJAdapter.m in Sources */,
+				920883541FD7EB8A007D2CDD /* RJMRAIDScript.m in Sources */,
+				920883821FD7EB8A007D2CDD /* RJBaseInterstitialController.m in Sources */,
+				920883A21FD7EB8A007D2CDD /* RJNetworkMapping.m in Sources */,
+				920883B51FD7EB8A007D2CDD /* RJVASTCompanionAdRepresentation.m in Sources */,
+				920883B01FD7EB8A007D2CDD /* RJVASTInterstitialAdapter.m in Sources */,
+				9208835F1FD7EB8A007D2CDD /* RJMRAIDNativeOpenEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9260B8911FD6DA7300B7C8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9260B89B1FD6DA7300B7C8F7 /* RevJetSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9260B8981FD6DA7300B7C8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9260B88B1FD6DA7300B7C8F7 /* RevJetSDK */;
+			targetProxy = 9260B8971FD6DA7300B7C8F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9260B89E1FD6DA7300B7C8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9260B89F1FD6DA7300B7C8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9260B8A11FD6DA7300B7C8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = RevJetSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.revjet.sdk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9260B8A21FD6DA7300B7C8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = RevJetSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.revjet.sdk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9260B8A41FD6DA7300B7C8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevJetSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.revjet.RevJetSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9260B8A51FD6DA7300B7C8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevJetSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.revjet.RevJetSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9260B8861FD6DA7300B7C8F7 /* Build configuration list for PBXProject "RevJetSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9260B89E1FD6DA7300B7C8F7 /* Debug */,
+				9260B89F1FD6DA7300B7C8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9260B8A01FD6DA7300B7C8F7 /* Build configuration list for PBXNativeTarget "RevJetSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9260B8A11FD6DA7300B7C8F7 /* Debug */,
+				9260B8A21FD6DA7300B7C8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9260B8A31FD6DA7300B7C8F7 /* Build configuration list for PBXNativeTarget "RevJetSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9260B8A41FD6DA7300B7C8F7 /* Debug */,
+				9260B8A51FD6DA7300B7C8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9260B8831FD6DA7300B7C8F7 /* Project object */;
+}
