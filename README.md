@@ -77,4 +77,9 @@ It is possible to override this behaviour by implementing ```- (BOOL)shouldOpenU
 }
 ```
 
+## Pre-cache ads / fire pixel(s) on ad LOAD
 
+It's possible to pre-cache the ad first instead of rendering it immediately.
+You should call ```- (void)fetchAd;``` method to load the ad and then call ```- (void)showAd;``` method to render the ad when it's necessary (see [RJSlot.h](RevJetSDK/RJSlot.h)).
+
+If you need to execute any special behaviour when the ad is loaded but not rendered yet (like fire load impression pixel) implement ```- (void)didReceiveAd:(UIView *)aView``` method (see [RJSlotDelegate.h](RevJetSDK/RJSlotDelegate.h)).
