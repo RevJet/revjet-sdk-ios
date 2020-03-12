@@ -387,7 +387,7 @@ static NSInteger const kRJFirstNetworkInfoIndex = 0;
 		return NO;
 	}
 
-	objc_msgSend(self.slot.delegate, theSelector, anObject);
+	((void(*)(id, SEL, id))objc_msgSend)(self.slot.delegate, theSelector, anObject);
 	return YES;
 }
 
@@ -396,7 +396,7 @@ static NSInteger const kRJFirstNetworkInfoIndex = 0;
 	SEL theSelector = NSSelectorFromString(@"deallocCustomEventAdapter:withName:");
 	if ([self.slot.delegate respondsToSelector:theSelector])
 	{
-		objc_msgSend(self.slot.delegate, theSelector, anObject, aFunction);
+		((void(*)(id, SEL, id, NSString *))objc_msgSend)(self.slot.delegate, theSelector, anObject, aFunction);
 	}
 }
 
@@ -946,6 +946,19 @@ static NSInteger const kRJFirstNetworkInfoIndex = 0;
 		}
 
 		self.isRequesting = NO;
+	}
+}
+
+- (void)adapter:(RJBaseAdapter *)adapter didShowAd:(UIView *)aView
+{
+	if ([self.slot.delegate respondsToSelector:@selector(didShowAd:)]) {
+		[self.slot.delegate didShowAd:aView];
+	}
+}
+
+- (void)adapter:(RJBaseAdapter *)adapter didShowInterstitialAd:(NSObject *)anInterstitialAd {
+	if ([self.slot.delegate respondsToSelector:@selector(didShowInterstitialAd:)]) {
+		[self.slot.delegate didShowInterstitialAd:anInterstitialAd];
 	}
 }
 

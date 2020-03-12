@@ -16,6 +16,7 @@
 - (BOOL)shouldOpenURL:(NSURL*)url;
 
 @optional
+- (void)didShowInterstitialAd:(RJBaseInterstitialController *)aController;
 - (void)didDismissInterstitialController:(RJBaseInterstitialController *)aController;
 - (void)applicationWillTerminateFromInterstitialController:(RJBaseInterstitialController *)aController;
 

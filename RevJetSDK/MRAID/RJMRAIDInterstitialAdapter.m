@@ -76,6 +76,11 @@
 	return [self.delegate adapter:self shouldOpenURL:url];
 }
 
+- (void)didShowInterstitialAd:(RJMRAIDInterstitialController *)aController
+{
+	[self.delegate adapter:self didShowInterstitialAd:self.interstitialController];
+}
+
 - (void)didDismissInterstitialController:(RJMRAIDInterstitialController *)aController
 {
 	[self.delegate adapter:self didDismissInterstitialAd:self.interstitialController];

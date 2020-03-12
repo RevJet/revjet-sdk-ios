@@ -22,6 +22,7 @@
 
 #pragma mark - Normal ads
 
+- (void)adapter:(RJBaseAdapter *)adapter didShowAd:(UIView *)aView;
 - (void)adapter:(RJBaseAdapter *)adapter didReceiveAd:(UIView *)aView;
 - (void)adapter:(RJBaseAdapter *)adapter didFailToReceiveAd:(UIView *)aView error:(NSError *)anError;
 - (void)adapter:(RJBaseAdapter *)adapter willPresentModalViewFromAd:(UIView *)aView;
@@ -32,6 +33,7 @@
 
 #pragma mark - Interstitial ads
 
+- (void)adapter:(RJBaseAdapter *)adapter didShowInterstitialAd:(NSObject *)anInterstitialAd;
 - (void)adapter:(RJBaseAdapter *)adapter didReceiveInterstitialAd:(NSObject *)anInterstitialAd;
 - (void)adapter:(RJBaseAdapter *)adapter didFailToReceiveInterstitialAd:(NSObject *)ad error:(NSError *)anError;
 - (void)adapter:(RJBaseAdapter *)adapter willPresentInterstitialAd:(NSObject *)anInterstitialAd;

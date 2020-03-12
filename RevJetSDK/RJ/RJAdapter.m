@@ -147,6 +147,8 @@ static NSString *const kRJRequestURLClose = @"revjet://#close";
 {
 	[self.loadingAd performSelector:@selector(stringByEvaluatingJavaScriptFromString:)
 				withObject:@"webviewDidAppear();" afterDelay:0.1f];
+
+	[self.delegate adapter:self didShowAd:self.loadingAd];
 }
 
 #pragma mark -

@@ -82,6 +82,10 @@
 	return [self.delegate adapter:self shouldOpenURL:url];
 }
 
+- (void)didShowInterstitialAd:(RJInterstitialController *)aController {
+	[self.delegate adapter:self didShowInterstitialAd:self.loadingAd];
+}
+
 - (void)didDismissInterstitialController:(RJInterstitialController *)controller {
   [self.delegate adapter:self didDismissInterstitialAd:self.loadingAd];
 }

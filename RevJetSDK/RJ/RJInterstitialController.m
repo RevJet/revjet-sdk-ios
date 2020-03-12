@@ -72,6 +72,10 @@ static NSString *const kRJRequestURLCloseInterstitial2 = @"revjet://#close";
 {
 	[[self webView] performSelector:@selector(stringByEvaluatingJavaScriptFromString:)
 				withObject:@"webviewDidAppear();" afterDelay:0.1f];
+
+	if ([self.delegate respondsToSelector:@selector(didShowInterstitialAd:)]) {
+		[self.delegate didShowInterstitialAd:self];
+	}
 }
 
 #pragma mark - View lifecycle

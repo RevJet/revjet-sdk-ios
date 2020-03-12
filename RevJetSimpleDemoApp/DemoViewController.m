@@ -53,8 +53,14 @@
 - (void)didReceiveAd:(UIView *)aView
 {
     // Here the ad is ready to be shown.
-    // You can fire pixels, show the ad, etc.
+    // You can fire LOAD pixels, show the ad, etc.
     [self.slot showAd];
+}
+
+- (void)didShowAd:(UIView *)aView
+{
+    // Here the ad is fully shown.
+    // You can fire VIEW pixels, etc.
 }
 
 - (void)didFailToReceiveAd:(UIView *)aView error:(NSError *)anError
@@ -78,6 +84,12 @@
 }
 
 // Interstitial
+
+- (void)didShowInterstitialAd:(NSObject *)anAd
+{
+    // Here the interstitial ad is fully shown.
+    // You can fire VIEW pixels, etc.
+}
 
 - (void)didReceiveInterstitialAd:(NSObject *)anAd
 {

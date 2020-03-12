@@ -17,6 +17,7 @@
 
 - (void)didFailToLoadSlot:(RJSlot *)aSlot error:(NSError *)anError;
 
+- (void)didShowAd:(UIView *)aView;
 - (void)didReceiveAd:(UIView *)aView;
 - (void)didFailToReceiveAd:(UIView *)aView error:(NSError *)anError;
 - (void)willPresentModalViewFromAd:(UIView *)aView;
@@ -26,6 +27,7 @@
 - (void)didCloseAd:(UIView *)aView;
 - (BOOL)shouldOpenURL:(NSURL*)url;
 
+- (void)didShowInterstitialAd:(NSObject *)anAd;
 - (void)didReceiveInterstitialAd:(NSObject *)anAd;
 - (void)didFailToReceiveInterstitialAd:(NSObject *)anAd error:(NSError *)anError;
 - (void)willPresentInterstitialAd:(NSObject *)anAd;

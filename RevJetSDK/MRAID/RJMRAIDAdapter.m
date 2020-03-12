@@ -67,13 +67,14 @@
 		[theCloseButton addTarget:self action:@selector(closeBanner:) forControlEvents:UIControlEventTouchUpInside];
 	}
 
-	[self.adView loadHTML:[self.params objectForKey:@"HTML"]];
+	[self.adView loadHTML:self.params[@"HTML"]];
 }
 
 - (void)didShowAd
 {
 	[self.adView stringByEvaluatingJavaScriptFromString:@"webviewDidAppear();"];
 	[self.adView.mraid setViewable:YES];
+	[self.delegate adapter:self didShowAd:self.adView];
 }
 
 #pragma makr - Actions

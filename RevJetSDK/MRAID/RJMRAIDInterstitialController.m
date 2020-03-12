@@ -70,6 +70,10 @@
 	[super didPresentInterstitial];
 	[self.MRAIDView stringByEvaluatingJavaScriptFromString:@"webviewDidAppear();"];
 	[self.MRAIDView.mraid setViewable:YES];
+
+	if ([self.delegate respondsToSelector:@selector(didShowInterstitialAd:)]) {
+		[self.delegate didShowInterstitialAd:self];
+	}
 }
 
 - (void)didDismissInterstitial
