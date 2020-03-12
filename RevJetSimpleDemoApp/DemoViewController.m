@@ -26,7 +26,7 @@
                 frame:CGRectMake(0.0f, 0.0f, theSize.width, theSize.height)];
     
     [self.slot addToView:self.view];
-    [self.slot loadAd];
+    [self.slot fetchAd];
 }
 
 - (BOOL)prefersStatusBarHidden
@@ -52,6 +52,9 @@
 
 - (void)didReceiveAd:(UIView *)aView
 {
+    // Here the ad is ready to be shown.
+    // You can fire pixels, show the ad, etc.
+    [self.slot showAd];
 }
 
 - (void)didFailToReceiveAd:(UIView *)aView error:(NSError *)anError
