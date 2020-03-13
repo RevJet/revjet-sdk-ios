@@ -1,0 +1,6 @@
+framework module RevJetSDK {
+  umbrella header "RevJetSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

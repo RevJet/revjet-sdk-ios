@@ -1,5 +1,31 @@
 # RevJet iOS SDK
 
+[![Version](https://img.shields.io/cocoapods/v/RevJetSDK.svg?style=flat)](https://cocoapods.org/pods/RevJetSDK)
+[![License](https://img.shields.io/cocoapods/l/RevJetSDK.svg?style=flat)](https://cocoapods.org/pods/RevJetSDK)
+[![Platform](https://img.shields.io/cocoapods/p/RevJetSDK.svg?style=flat)](https://cocoapods.org/pods/RevJetSDK)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+RevJetSDK is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'RevJetSDK'
+```
+
+## License
+
+RevJetSDK is available under the MIT license. See the LICENSE file for more info.
+
+
+## Documentation
+
 ### Available macros
 
 * Bundle ID: ```{bundleid}```
@@ -30,6 +56,7 @@
 * User locale: ```{locale}```
 
 ### Available SDK parameters
+
 _(SDK parameters are defined in ```<meta>``` tags.)_
 
 1. ```<meta name="Parameter-AdType" content="Banner">```
@@ -48,7 +75,7 @@ _(SDK parameters are defined in ```<meta>``` tags.)_
 
   The height of the banner. Can be omitted.
 
-## Supported ad sizes
+### Supported ad sizes
 
 * 320x50
 * 320x64
@@ -62,7 +89,7 @@ _(SDK parameters are defined in ```<meta>``` tags.)_
 To support additional ad sizes you need to update ```+ (CGSize)supportedSizeForSize:(CGSize)aSize``` method in
 "RevJetSDK/Utilities/RJUtilities.m".
  
-## Overriding LP URL handling
+### Overriding LP URL handling
 
 By default, any LP URLs will be opened in the external browser.
 It is possible to override this behaviour by implementing ```- (BOOL)shouldOpenURL:(NSURL*)url``` function (from ```RJSlotDelegate```):
@@ -77,13 +104,13 @@ It is possible to override this behaviour by implementing ```- (BOOL)shouldOpenU
 }
 ```
 
-## Pre-cache ads
+### Pre-cache ads
 
 It's possible to pre-cache the ad first instead of rendering it immediately.
 You should call ```- (void)fetchAd;``` method to load the ad and then call ```- (void)showAd;``` method to render
 the ad when it's necessary (see [RJSlot.h](RevJetSDK/RJSlot.h)).
 
-## Load and View events
+### Load and View events
 
 The SDK can inform you when the ad becomes visible to the end user. Implement ```- (void)didShowAd:(UIView *)aView```
 and/or ```- (void)didShowInterstitialAd:(NSObject *)anAd``` method from [RJSlotDelegate](RevJetSDK/RJSlotDelegate.h).

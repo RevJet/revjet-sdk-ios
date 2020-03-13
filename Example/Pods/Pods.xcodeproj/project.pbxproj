@@ -1,0 +1,1428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019D0911E6A9D7819F8667B7B2239E2A /* RJXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A09BAC6166933EA78979026E7A54E0AF /* RJXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04E7DC119542769AD433591B064EE16C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBABB5EB036C087D0F724AF1738A8A8 /* SystemConfiguration.framework */; };
+		05471329F145060DD8DB24A70E3573DC /* RJMRAIDNativeUseCustomCloseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B1996586B2F874C6CD448258656D35E4 /* RJMRAIDNativeUseCustomCloseEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		066187327AD956B0502769838AC37DD6 /* RJNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7855E611937CF4DC7BAA9CCD8299F220 /* RJNetwork.m */; };
+		0C477FB52A7B088C82EC8F18AE980893 /* RJAdapterInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A83594E891671A44244770BFC8E80B /* RJAdapterInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E5CD4AE143C383292992C7F4D896B99 /* RJMRAIDNativeOpenEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBB71057CA703995DED71845E9E7874 /* RJMRAIDNativeOpenEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F350C5E76E532B273F02AE36FEBE9AB /* RJInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6A27DCD6D8E55147B7A69C701F15F /* RJInterstitialController.m */; };
+		1081E39D66FE9D767B55DDCB54513C68 /* RJBaseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F7DE84FAFC362F5FBA036A68EC8D2C /* RJBaseAdapter.m */; };
+		110A213B9268CE327062D26C56B2DDBB /* RJConversionTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = B2AB1D30DD3F5874EA533DD8082D2789 /* RJConversionTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		110B5065C1A2DCB9E69BD5894D534517 /* RJVASTToolbarViewCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D97D8BA96775DDC47B7AD5221375FA /* RJVASTToolbarViewCloseButton.m */; };
+		1200EDDBF5BE44E1AE50131F07F75DED /* RJSlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 137DD3599FFC3D84A7ADD89012FCB529 /* RJSlotView.m */; };
+		145DE93684377EB833FD6CA9A5532E8E /* RJVASTAdRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = E687D0407AC17EB691DC9FB2551F3CBC /* RJVASTAdRepresentation.m */; };
+		1537DE66632F870C2535F716B1369590 /* RJVASTMediaFileRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C332A60E24E2C61E4E9224B11E3CA5 /* RJVASTMediaFileRepresentation.m */; };
+		1550E7C78A711968D80881F4E4D2B1E3 /* RJVASTInterstitialController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DD9B7EE673957A933E6174BC8A400C /* RJVASTInterstitialController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18A780D97179CA003AFF82EEAB74620D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A05B6AF6615B21E80601B2C2E81E850 /* MediaPlayer.framework */; };
+		1970A97673A5BCFA6F7D6FD4DFE2EDBF /* RJNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D87C34DD7472232AB0AAFCC048A7FA /* RJNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE892CE5483E6F7CC0369EA45B0D02F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D1511845CA2A9326C006343E099E65 /* Foundation.framework */; };
+		20D9527140BD490AC31F3BCB318CD583 /* RJMRAIDInterstitialController.h in Headers */ = {isa = PBXBuildFile; fileRef = A068B9FCCE7503EF285921741FBCB5B2 /* RJMRAIDInterstitialController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2831AEAD002C317DC2A2E94772CB2E7A /* RJSlotInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE50D59C34EBF5E67202D86A3F2F820 /* RJSlotInterstitial.m */; };
+		292BA19594D919DC180FC18B94021B73 /* RJStatusBarVisibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 737E54068112718F0977A434640400FE /* RJStatusBarVisibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2952C2B407684EFCCB5B4FF2C49ABD5A /* RJMRAIDAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CE8521996D727793609CD727D4F816 /* RJMRAIDAdapter.m */; };
+		2A5B2D7951CCA883BD942E64D951D776 /* RJConversionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 247A11A55CA2016B29FCB714E1BCDB56 /* RJConversionConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D0EE5B09E5AD3CCF85B11C53708D240 /* RJPasteboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 28679362170650A41622995A0C740353 /* RJPasteboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D8DF93FB2B2FA2B10EBCB4ADB092466 /* RJBaseInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E6A825D05CF83DA16E9AF88EBEDC8 /* RJBaseInterstitialController.m */; };
+		368AA1508BD5D92427B450189290D46A /* RJStoreProductViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4A036F0D941A886D71E2E579303B43 /* RJStoreProductViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		393D436D5CD0064E9BA146D3B46774E2 /* RJCustomEventAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9F943CCF25D156D2FD46ED743AAD87 /* RJCustomEventAdapter.m */; };
+		39B945EFEE6290576EB8DB7CCB3E50D4 /* RJPasteboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F08F4AF58BCD48DDD956068FF407E93 /* RJPasteboard.m */; };
+		39F6FFA02023A1FBD75A65220B453CCE /* RJConversionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 077150FE770D1105539B298B768D37EA /* RJConversionTracker.m */; };
+		3BF8A201E791F8C17D47452D09EC3A24 /* RJVASTInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047AD60E6AFC92E458A4C7A7B62A75F /* RJVASTInterstitialController.m */; };
+		3C037EFE6C5BF2044BC6EB291BD58847 /* RJVASTMediaFileRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 23BF4862834E9ED89154CCF78A40FA30 /* RJVASTMediaFileRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D2F2CE674FFDEFC27900FB15CF723FE /* RJMRAIDView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA82D79AED627926BD5A805BF8080 /* RJMRAIDView.m */; };
+		3DF5B0242284DB7BCAE86BAFE507DD78 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1928B0D932801D92A7E25D50D77FA2C5 /* ImageIO.framework */; };
+		4073558D27B3F67522DC66BD8BCF39C1 /* RJVASTRepresentationUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 403051D0438A51FD735C647C5248B0C8 /* RJVASTRepresentationUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4292A7693AAB4FCAED620A1467A60807 /* RJNetworkInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7AED07D8135A3F5209EDB6B5F8D2DD /* RJNetworkInterstitial.m */; };
+		44208FDEEC75FC3B23DB8AB7425F2ACA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D1511845CA2A9326C006343E099E65 /* Foundation.framework */; };
+		450750F707611366A1CFDBEAE5C0E4B6 /* RJMRAIDScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 5873C9B2758E810D737FECD73273425C /* RJMRAIDScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4537C86741894B11B9227C193353EA65 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B851F787826B7C849B587AFFA06D7665 /* AdSupport.framework */; };
+		459870102AD37DCBEFEFEB4FFA0C1F60 /* RJMRAID.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC46C081972DA4ED70EAA1CE8714BE2 /* RJMRAID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		469B45FEC80E50417A0C5956F5DB3E9F /* RJVASTInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = C83CFF760E94E60641F8F6480AA1FB9F /* RJVASTInterstitialAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		482240AADE441A3D9334293946B68534 /* RJVASTToolbarViewCountdownElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1847D79DF14736C4F307165CC64F71 /* RJVASTToolbarViewCountdownElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		495C4CA1170E8CB3E744BF0E51D028C7 /* RJMRAIDNativeOrientationPropertiesEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE871DE14B8758BCF08C41983C5A4A1 /* RJMRAIDNativeOrientationPropertiesEvent.m */; };
+		49A033BA5B512B68C7E0107358CCA326 /* RJSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D928D60A22CA19CFF1EEB89E404E6 /* RJSlot.m */; };
+		4BCEFBC59EEE02767F1A6638DB6E2138 /* RJSlot.h in Headers */ = {isa = PBXBuildFile; fileRef = F1EBBBB2A36F72A74890F3E57D11F6EE /* RJSlot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C48DFD715638D37384AE9D28A2FB79C /* RJMRAIDNativeStorePictureEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 00AC7F453C5FC473105B96833855CD5C /* RJMRAIDNativeStorePictureEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E7B649297DE2D8EC3C26BDE8E93A208 /* RJNetworkMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = C6979A0C800A9E4A566C39E1ABC4B10E /* RJNetworkMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A072DA708DD3F80273468DD8E9B3359 /* RJVASTToolbarViewCountdownElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1437C0C12B44FB2ADF6B2648EFA27 /* RJVASTToolbarViewCountdownElement.m */; };
+		5B1FEAAF81125D8AFCB039099D18A77A /* RJPixelsQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E02AFF1A5F770CF79FA839649B0FE4 /* RJPixelsQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEF942B65CC6D7CA51F7B289B6B0397 /* RJNetworkInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A98EA084FC70B42948C5C0C05C2A78 /* RJNetworkInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C286B81E46793F75D5593A0390FEF6F /* RJMRAIDNativeCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE7EE7A04E3897489F7C7C07E51D05 /* RJMRAIDNativeCalendarEvent.m */; };
+		5C522F305AE7B8D2D6CB0DEB7A57D07F /* RJMRAIDViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5673B4D7A39ECF395EE12A6918AB9CAB /* RJMRAIDViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CFC721758472FEB665FC0FEE49D7603 /* RJUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A83E98C3FBB8F452B2AC6111AAB8C2 /* RJUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FFA7ADA8A63B2145F3EFBE91440906E /* RJMRAIDNativeEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D22FA78EBA8170243F1A49A74326F829 /* RJMRAIDNativeEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		605EBE32BFB367377B1903FC28249F21 /* RJAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B802BB833D00250D582FED2BA4E592 /* RJAdapter.m */; };
+		62BE59A0F02D132D2FCE3A97B76A8DCC /* RJVASTInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C6532357D778867B030DD945D732D21C /* RJVASTInterstitialAdapter.m */; };
+		65495AE7FF35DFAD839F2C148325FA18 /* RJPixelsTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 02471DD5BF4D2419E65B4A0E57066830 /* RJPixelsTracker.m */; };
+		66A68433CE66C672E714EEE3D302989A /* RJInterstitialController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1038DAB86C23B6188D6761A375841530 /* RJInterstitialController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68DFAEABB3B904E8A22681803304A225 /* RJMRAIDNativeOrientationPropertiesEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F6A1FB4EB8091A767AABF1A39C383319 /* RJMRAIDNativeOrientationPropertiesEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68FB82B21DA6C4145CCCA62F7E11BC20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D1511845CA2A9326C006343E099E65 /* Foundation.framework */; };
+		692CADC704A9738ABB399E7FB83E1995 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1F18A1219053167A9EC4EFF2C8DCEA /* EventKit.framework */; };
+		6C5C390839A7CAFB4E667F7BC8862FF2 /* RJUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 265951F151024FFEF847E35D81E8CD42 /* RJUtilities.m */; };
+		6CE92310D8E8D31C3A48257E3385CB67 /* RJReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC94649DF6790B3CB9B4C551F0E3CFF /* RJReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		735AD1C599E7E60FAB15D483DCC82C30 /* RJSlotInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 2602107618AD71EFF5E7A1E18CCCF653 /* RJSlotInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C5A53551872066F398FE446838B01E /* RJVASTCompanionAdRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BED166C97AE9DAFB9E67E04D54745D /* RJVASTCompanionAdRepresentation.m */; };
+		75A2FDF75C7252F898F929235D51732D /* RJURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 82781658AA74478BF98FE5E333380999 /* RJURL.m */; };
+		76A4FE99831122169A9C5BD4ACCBC009 /* RJMRAIDView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB01A89373D8D4784B1B256466E5A4F /* RJMRAIDView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DE6C8108E27E53C6289CBF73A731EA /* RJMRAIDInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1B86ED64DB48A4C05BEB81EDDE25C /* RJMRAIDInterstitialController.m */; };
+		790E205BEC34FFDE1455644DB7F4E95F /* RJBaseAdapterInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 686A3666FEB286B560A0F176394B51E3 /* RJBaseAdapterInterstitial.m */; };
+		79BE7540A466D32752573367AE4AC6EF /* RJSlotDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB09FDC6281E3B4FD19651DEA48DA5B /* RJSlotDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF4C0804D463739EF2C4F33921F3A66 /* RJReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C346EA894EBF6A1EDDAC18317FBD2EE9 /* RJReachability.m */; };
+		7E1956F3F6E2BE3705536C08AEC54409 /* RevJetSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6703881813DBD35785D399FCE6F42E6F /* RevJetSDK-dummy.m */; };
+		8067149787F4C53570F45A844CD56742 /* RJStatusBarVisibility.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF6EFFB46ECC132F55EDDA71A1CD15 /* RJStatusBarVisibility.m */; };
+		810EF6AA48BF9D5A6CA3B355EC3B4317 /* RJVASTXMLParserAggregator.h in Headers */ = {isa = PBXBuildFile; fileRef = B231B81315A40AE62438075D5AEC912A /* RJVASTXMLParserAggregator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8296B290180FF7ABD10EB2ECAE2987E7 /* RJMRAIDExpandViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDD9BC1273804E8159253368FC79D90 /* RJMRAIDExpandViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8375F70525EE92F7FC6DCF622468AB0F /* RJConversionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF112CFB692900DAD55AADF8A6E26C /* RJConversionConfig.m */; };
+		87A074CC662493CFEA9B87FBECF359E8 /* RJMRAIDNativeStorePictureEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F28AD7F0E05DD442F00C5930225D03F /* RJMRAIDNativeStorePictureEvent.m */; };
+		8B8A5E005EE560411799041017A62D17 /* RJVASTToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AB32B451F640766A8A102F1CD93A4C /* RJVASTToolbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BE63ECF7B8E2D26301C9F130FC29FA0 /* RJMRAIDNativeExpandEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC75CA71F65302669CD5AD5BBA1AE4 /* RJMRAIDNativeExpandEvent.m */; };
+		8BED7A11D21932AC60893A90ACA636D0 /* RJConversionCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E015643AB1FC1118E1F4BA0ECBDBE4 /* RJConversionCommon.m */; };
+		8DF0EDCA0FB773925C8B2A88154BF0B0 /* RJMRAIDNativeCloseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E70BA0A370845405D444C2B94BE4AD3B /* RJMRAIDNativeCloseEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F77243ABBD46B9473D26678FF09E2F6 /* RJUIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 056FE86B5BE74FE9F84AF7587CF47ACE /* RJUIImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FAB208BFD013E0B43CF70AB1D36871B /* RJHTMLScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2D299586C737387F3C05A7D08BDE56 /* RJHTMLScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C4282A645F4040F189F82015A2DBC8 /* RJMRAIDNativeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DBE9431363AC820A8A39325BE30446 /* RJMRAIDNativeEvent.m */; };
+		928FF786967AE47AACB808AA57C868E4 /* RevJetSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 879079E8F34FD791AD515F7036EB8652 /* RevJetSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92AA63758D17815089948D2E3141B748 /* RJHTMLScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D090A127C3FEF0BBB6FED0586DBEB /* RJHTMLScanner.m */; };
+		93320727E755E323B6ECDF734B6D26D0 /* RJMRAIDInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE80D144A7AC3091E0D1384A88DD298 /* RJMRAIDInterstitialAdapter.m */; };
+		93B9935305FE5067248FC798997922CA /* RJVASTToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8FEA28981DAAB364C0B473D42D9C33 /* RJVASTToolbarView.m */; };
+		9431B3ACB5FA219354F5A4CD66F61404 /* RevJetSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 398CBAB450379D12EA1879E02AB9AC38 /* RevJetSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B888DCCB25C27A614489B070D708C5 /* RJConversionReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 67502689F705138990EE88D02740729D /* RJConversionReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959068F181C489AEBC4C688027808A5C /* RJMRAIDNativeEventFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 172651011F5E4E4D66562167CB839C89 /* RJMRAIDNativeEventFactory.m */; };
+		962DB4783D80B60D1F6F625BF24D372F /* RJGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCCAC2EC52A3078FDE4885958E3A062 /* RJGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D83F90D5CD7237353DF59A92E83FBA /* RJMRAIDNativeEventFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 09958E30F4425B3F9B7F1BF19E8A2463 /* RJMRAIDNativeEventFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		994C04973149B67B1857104E93479B39 /* RJVASTToolbarViewLearnMoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6E0449F3F5C43226498914067BF026 /* RJVASTToolbarViewLearnMoreButton.m */; };
+		9A6CB79DA643DB06B10418916B8AFF68 /* RJMRAIDScript.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BEB9D9EC5911371C79CAA75EA3C05F /* RJMRAIDScript.m */; };
+		9B43AE8AC5D306B9B2CAFCDCACE83CA1 /* RJConversionCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = E40143A9CADEB52B1687C36C303BC707 /* RJConversionCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B7E6AB6DB94666F70C26EA51DC7AF29 /* RJAdapterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 039309FDA3CE5FCC5CBA8F244E295651 /* RJAdapterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DB123072A15DE43A868490F9A680A3B /* RJVASTRepresentationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FF03CDB1F81D96F23D7D61C318C69313 /* RJVASTRepresentationUtilities.m */; };
+		9DC61F324568ABF8845848D0A674B19B /* RJUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E31717C0CC34721BFEE25CBD58A6619C /* RJUIImage.m */; };
+		9E4312376A6374AEC09C96D0117A27D3 /* RJAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1FCB165D76396740DEACA1A117EE34 /* RJAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F813780E2C0DF9D1F0239C395C12F5A /* RJSlotViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 02687779F3BB9F98E95A53D775D3D44C /* RJSlotViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A02A0F41A28EFEFF9C534C0342A6850A /* RJWebBrowserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EEE5C4AA869142F61CC61551547498 /* RJWebBrowserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53E41FEFE54761F4B45BD65904C7E04 /* RJStoreProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8789C75092F3252D6FA019FFBC2254 /* RJStoreProductViewController.m */; };
+		A578682B04C881D14A7CF54F15C13BF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C345868AA5B5F962860148DF877DB18C /* UIKit.framework */; };
+		A6D4FA2ADC5C26C77A94ABC9E58924DD /* RJVASTComponentRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = C027ECAA6938B0DA3DF2AB41A275F4A3 /* RJVASTComponentRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A79F2A8371AD6D1D359093A0644F5B57 /* RJMRAIDNativePlayVideoEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C474BA4A9C81F3F3005574EF38D7A /* RJMRAIDNativePlayVideoEvent.m */; };
+		A9FAA3973E2CD25750ECA55DCDD21890 /* RJPixelsTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 318064A44FB5EBE11F8EB8C94765321F /* RJPixelsTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA346702DFF2F9B0201775B86D02FC8E /* RJAdapterInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDCCD2BA260CFF2CEFB5DA73EADE899 /* RJAdapterInterstitial.m */; };
+		ABAE2A53A95088037B863B278C065DD9 /* RJPixelsQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 52548D79B07B5E593FFF7FED4B98BBF7 /* RJPixelsQueue.m */; };
+		ACE4C119E2F327088A35213AC068B775 /* RJMRAIDNativeUseCustomCloseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 400F86FA3D3669471E90C9A8593AB62B /* RJMRAIDNativeUseCustomCloseEvent.m */; };
+		AD06CE809C62E992CD3616021496EB92 /* RJVASTComponentRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = D264C040D9114B5E7047211DD3BC69B1 /* RJVASTComponentRepresentation.m */; };
+		B2817E4C047540015F44B3D8D13DFACD /* RJNetworkMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 01488DF2407CD07265976A587179AF97 /* RJNetworkMapping.m */; };
+		B372E7EE9A25C98F13DF146EE887CE56 /* RJURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 188495F3BC033F0EAD92749158C65C95 /* RJURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B43D5B3814F3C0A16BD86707E2F314FF /* Pods-RevJetSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0C997F45B6341CD1CA32F126DD9757 /* Pods-RevJetSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5C244D57987013069D74C0C9B78B48E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1457CBCE9DB510BE7781AA5F3A4D66A /* StoreKit.framework */; };
+		B8A13D94EFE3EDC903ABC15D89228179 /* RJConversionReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F329E6C8FDC8DDADADDF8CD2FF8ECA9E /* RJConversionReachability.m */; };
+		BA99775C6DB063BCE73FF186BECDE9B2 /* RJXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5E501923E5651393DD91AB73DB696 /* RJXMLParser.m */; };
+		BB07AED5287C09F6EC0338B3D0664E92 /* Pods-RevJetSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31046B82A9FF7BAD5DF92257FAD0D2E4 /* Pods-RevJetSDK_Example-dummy.m */; };
+		C199AECF05305F8A70D631C86E03D011 /* RJMRAIDNativeCalendarEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = C849A775BB97182EF2C0C051D66F138A /* RJMRAIDNativeCalendarEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C265254EA611074284162FF871F97307 /* RJVASTAdRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C063A3E929604CA346DECC4F6E80D6 /* RJVASTAdRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3F34D58437D554D3D14049F7037B80A /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD72D984FA0C47D2237532FD0ADDA08E /* EventKitUI.framework */; };
+		C698F59D40886D7F575BD0E517F871BA /* RJVASTXMLParserAggregator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D9694CD695805F8665E442D37078B /* RJVASTXMLParserAggregator.m */; };
+		CF880D4AFD08D1E65B8CC5A252C6C0A7 /* RJBaseAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E85F732DF2B0B1C25F1AAF4F3E15362 /* RJBaseAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24B78E0AD0DDC942FF3ED8C5757115C /* RJWebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C112C5CA0A6483FDEA65C73243FEE1E /* RJWebBrowser.m */; };
+		D3DEC3CE70464AD9730916B0143451DF /* RJInterstitialControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 077EB4B95BFC201F8D49220F05C1AB94 /* RJInterstitialControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D41FD6B98979DC2E1B1B50732EB9126E /* RJVASTToolbarViewCloseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D29D2382C37CE993551C85F589040CE /* RJVASTToolbarViewCloseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D425B47D0B48261D3AD20ACF3EEBB3BC /* Pods-RevJetSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF05166D8C945534966EADBEDBC89656 /* Pods-RevJetSDK_Tests-dummy.m */; };
+		D596DB0D1141423BFC111864556D623C /* RJMRAIDAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F73CD7D3A1026660EBCA7354E737AE6 /* RJMRAIDAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A56FF99F510FD2A417693C199002C9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1680AD29ACC86C66926747B1FAE07138 /* CoreTelephony.framework */; };
+		DDE43091F2BE351BAC7FFCD392D42D11 /* RJMRAIDExpandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D914E1FF661225229A98E69A66220D25 /* RJMRAIDExpandViewController.m */; };
+		E26DE0EAB5E21E7A69F10457ABD65E21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C09F0B87406C1E1B2A87126B068DD0 /* CoreGraphics.framework */; };
+		E3143497F760A0BD6F0D05D5854A8D0A /* RJVASTCompanionAdRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = F81CD9B01DE3DE5B02180C3EBFFFCC42 /* RJVASTCompanionAdRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C7A196E79AB9E31836F8880AF0E0E1 /* RJBaseAdapterInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = A197B7C8B00B4828EE5A121F9C1294A1 /* RJBaseAdapterInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7198A7A47ED84B712C9DA902B4FDD9F /* RJMRAIDNativePlayVideoEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 491D5F89BBE1D7E33AFFD8C344A92CB7 /* RJMRAIDNativePlayVideoEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7CE1246EE35FC2C16697FF9B9A2709F /* RJGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = DB575455BA6A2E104F96D40F74D9249E /* RJGlobal.m */; };
+		F11CA7EF0492A4623BDFA7CEF6DE2D1B /* RJWebBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7EDA52561D1FDE5ABFFC227924AC83 /* RJWebBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C92A71CD1A2F4B1E4EEE205694C2FB /* RJMRAIDNativeOpenEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 87741A2A636A3E4A80F19417542699B9 /* RJMRAIDNativeOpenEvent.m */; };
+		F2A94C88563DC15449B5CEF7874C0FD5 /* RJVASTToolbarViewLearnMoreButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE26D46DB7DCE705EF77AD7B55DF969 /* RJVASTToolbarViewLearnMoreButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F375B103361D79EFDA56137A52C262F5 /* RJMRAID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCBEE492FB523CFA8313E6F4C53756 /* RJMRAID.m */; };
+		F665A9B2C7BDC328D2D4F3F6587CA57D /* RJMRAIDNativeExpandEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 7918352B368BCA8E559F8699E187E613 /* RJMRAIDNativeExpandEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71F500AF70B9E082C9A0E6FEDA43DFD /* RJMRAIDInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BA1EB30E1DC744122CC27D0869E2E4 /* RJMRAIDInterstitialAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84D855391626DB7B4960A7A9750F05B /* RJCustomEventAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = B94D8E52F8F808B868193EE43559D8C8 /* RJCustomEventAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8BED09AEC485FFEDF50ECBC446D3E64 /* RJSlotView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AF26A32375C748C482E35AC96D55ED /* RJSlotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F901A1308A2E9196DA5B6322D87F23C0 /* RJBaseInterstitialController.h in Headers */ = {isa = PBXBuildFile; fileRef = B14975890A90A81B7E90439ABA07F036 /* RJBaseInterstitialController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9C5E9231B61E496A1C421DDFBFBBCD8 /* Pods-RevJetSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C75872C052B24F761433427DC3BD8636 /* Pods-RevJetSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE52730E4DD822DE0C4DC61077896525 /* RJMRAIDNativeCloseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3825CD09B22061CF78E086FCEA7B431F /* RJMRAIDNativeCloseEvent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4D4D71B20D6D756D727863C2C5F8E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B3D86AE5C862DE6A2BCDD9F2E1AB05;
+			remoteInfo = "Pods-RevJetSDK_Example";
+		};
+		DBDCF9049BFD5A014553F5AA8F9020EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420EA9E7903A53F0B28F4F30D358B3D6;
+			remoteInfo = RevJetSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AC7F453C5FC473105B96833855CD5C /* RJMRAIDNativeStorePictureEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeStorePictureEvent.h; sourceTree = "<group>"; };
+		01488DF2407CD07265976A587179AF97 /* RJNetworkMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJNetworkMapping.m; path = RevJetSDK/Classes/RJNetworkMapping.m; sourceTree = "<group>"; };
+		02471DD5BF4D2419E65B4A0E57066830 /* RJPixelsTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJPixelsTracker.m; sourceTree = "<group>"; };
+		02687779F3BB9F98E95A53D775D3D44C /* RJSlotViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJSlotViewDelegate.h; path = RevJetSDK/Classes/RJSlotViewDelegate.h; sourceTree = "<group>"; };
+		039309FDA3CE5FCC5CBA8F244E295651 /* RJAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJAdapterDelegate.h; path = RevJetSDK/Classes/RJAdapterDelegate.h; sourceTree = "<group>"; };
+		056FE86B5BE74FE9F84AF7587CF47ACE /* RJUIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJUIImage.h; sourceTree = "<group>"; };
+		077150FE770D1105539B298B768D37EA /* RJConversionTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJConversionTracker.m; sourceTree = "<group>"; };
+		077EB4B95BFC201F8D49220F05C1AB94 /* RJInterstitialControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJInterstitialControllerDelegate.h; sourceTree = "<group>"; };
+		07C09F0B87406C1E1B2A87126B068DD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		09958E30F4425B3F9B7F1BF19E8A2463 /* RJMRAIDNativeEventFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeEventFactory.h; sourceTree = "<group>"; };
+		0BB6A27DCD6D8E55147B7A69C701F15F /* RJInterstitialController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJInterstitialController.m; sourceTree = "<group>"; };
+		1038DAB86C23B6188D6761A375841530 /* RJInterstitialController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJInterstitialController.h; sourceTree = "<group>"; };
+		137DD3599FFC3D84A7ADD89012FCB529 /* RJSlotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJSlotView.m; path = RevJetSDK/Classes/RJSlotView.m; sourceTree = "<group>"; };
+		155C474BA4A9C81F3F3005574EF38D7A /* RJMRAIDNativePlayVideoEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativePlayVideoEvent.m; sourceTree = "<group>"; };
+		1680AD29ACC86C66926747B1FAE07138 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		172651011F5E4E4D66562167CB839C89 /* RJMRAIDNativeEventFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeEventFactory.m; sourceTree = "<group>"; };
+		188495F3BC033F0EAD92749158C65C95 /* RJURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJURL.h; path = RevJetSDK/Classes/RJURL.h; sourceTree = "<group>"; };
+		1928B0D932801D92A7E25D50D77FA2C5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		1BE50D59C34EBF5E67202D86A3F2F820 /* RJSlotInterstitial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJSlotInterstitial.m; path = RevJetSDK/Classes/RJSlotInterstitial.m; sourceTree = "<group>"; };
+		1DFE7EE7A04E3897489F7C7C07E51D05 /* RJMRAIDNativeCalendarEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeCalendarEvent.m; sourceTree = "<group>"; };
+		1F7AED07D8135A3F5209EDB6B5F8D2DD /* RJNetworkInterstitial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJNetworkInterstitial.m; path = RevJetSDK/Classes/RJNetworkInterstitial.m; sourceTree = "<group>"; };
+		22E02AFF1A5F770CF79FA839649B0FE4 /* RJPixelsQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJPixelsQueue.h; sourceTree = "<group>"; };
+		230510A6A5581C5F652A14C86680585E /* Pods-RevJetSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevJetSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		23BF4862834E9ED89154CCF78A40FA30 /* RJVASTMediaFileRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTMediaFileRepresentation.h; sourceTree = "<group>"; };
+		2433CEA03418FCAEBCCE25AC603F16EF /* RevJetSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RevJetSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		247A11A55CA2016B29FCB714E1BCDB56 /* RJConversionConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJConversionConfig.h; sourceTree = "<group>"; };
+		25AB32B451F640766A8A102F1CD93A4C /* RJVASTToolbarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTToolbarView.h; sourceTree = "<group>"; };
+		2602107618AD71EFF5E7A1E18CCCF653 /* RJSlotInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJSlotInterstitial.h; path = RevJetSDK/Classes/RJSlotInterstitial.h; sourceTree = "<group>"; };
+		265951F151024FFEF847E35D81E8CD42 /* RJUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJUtilities.m; sourceTree = "<group>"; };
+		26BA1EB30E1DC744122CC27D0869E2E4 /* RJMRAIDInterstitialAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDInterstitialAdapter.h; sourceTree = "<group>"; };
+		28679362170650A41622995A0C740353 /* RJPasteboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJPasteboard.h; sourceTree = "<group>"; };
+		28DD9B7EE673957A933E6174BC8A400C /* RJVASTInterstitialController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTInterstitialController.h; sourceTree = "<group>"; };
+		2A05B6AF6615B21E80601B2C2E81E850 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		2D29D2382C37CE993551C85F589040CE /* RJVASTToolbarViewCloseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTToolbarViewCloseButton.h; sourceTree = "<group>"; };
+		2F08F4AF58BCD48DDD956068FF407E93 /* RJPasteboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJPasteboard.m; sourceTree = "<group>"; };
+		2F73CD7D3A1026660EBCA7354E737AE6 /* RJMRAIDAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDAdapter.h; sourceTree = "<group>"; };
+		31046B82A9FF7BAD5DF92257FAD0D2E4 /* Pods-RevJetSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RevJetSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		318064A44FB5EBE11F8EB8C94765321F /* RJPixelsTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJPixelsTracker.h; sourceTree = "<group>"; };
+		32D97D8BA96775DDC47B7AD5221375FA /* RJVASTToolbarViewCloseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTToolbarViewCloseButton.m; sourceTree = "<group>"; };
+		35BED166C97AE9DAFB9E67E04D54745D /* RJVASTCompanionAdRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTCompanionAdRepresentation.m; sourceTree = "<group>"; };
+		3825CD09B22061CF78E086FCEA7B431F /* RJMRAIDNativeCloseEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeCloseEvent.m; sourceTree = "<group>"; };
+		398CBAB450379D12EA1879E02AB9AC38 /* RevJetSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevJetSDK.h; path = RevJetSDK/Classes/RevJetSDK.h; sourceTree = "<group>"; };
+		3A65F7B5422BA36E0ADE169312104362 /* RevJetSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevJetSDK-prefix.pch"; sourceTree = "<group>"; };
+		3B4A036F0D941A886D71E2E579303B43 /* RJStoreProductViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJStoreProductViewController.h; sourceTree = "<group>"; };
+		3CB1B86ED64DB48A4C05BEB81EDDE25C /* RJMRAIDInterstitialController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDInterstitialController.m; sourceTree = "<group>"; };
+		3E85F732DF2B0B1C25F1AAF4F3E15362 /* RJBaseAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJBaseAdapter.h; path = RevJetSDK/Classes/RJBaseAdapter.h; sourceTree = "<group>"; };
+		400F86FA3D3669471E90C9A8593AB62B /* RJMRAIDNativeUseCustomCloseEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeUseCustomCloseEvent.m; sourceTree = "<group>"; };
+		403051D0438A51FD735C647C5248B0C8 /* RJVASTRepresentationUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTRepresentationUtilities.h; sourceTree = "<group>"; };
+		45C332A60E24E2C61E4E9224B11E3CA5 /* RJVASTMediaFileRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTMediaFileRepresentation.m; sourceTree = "<group>"; };
+		48D1511845CA2A9326C006343E099E65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		491D5F89BBE1D7E33AFFD8C344A92CB7 /* RJMRAIDNativePlayVideoEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativePlayVideoEvent.h; sourceTree = "<group>"; };
+		4B2922DC5AAB814D222A78C44F3BD52F /* Pods-RevJetSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevJetSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D0C997F45B6341CD1CA32F126DD9757 /* Pods-RevJetSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RevJetSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4E1847D79DF14736C4F307165CC64F71 /* RJVASTToolbarViewCountdownElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTToolbarViewCountdownElement.h; sourceTree = "<group>"; };
+		4E8D9694CD695805F8665E442D37078B /* RJVASTXMLParserAggregator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTXMLParserAggregator.m; sourceTree = "<group>"; };
+		5047AD60E6AFC92E458A4C7A7B62A75F /* RJVASTInterstitialController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTInterstitialController.m; sourceTree = "<group>"; };
+		52548D79B07B5E593FFF7FED4B98BBF7 /* RJPixelsQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJPixelsQueue.m; sourceTree = "<group>"; };
+		52D44E640097815F606F42D535EAA6E5 /* RevJetSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevJetSDK.framework; path = RevJetSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5673B4D7A39ECF395EE12A6918AB9CAB /* RJMRAIDViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDViewDelegate.h; sourceTree = "<group>"; };
+		5873C9B2758E810D737FECD73273425C /* RJMRAIDScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDScript.h; sourceTree = "<group>"; };
+		58B802BB833D00250D582FED2BA4E592 /* RJAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJAdapter.m; sourceTree = "<group>"; };
+		5A0D090A127C3FEF0BBB6FED0586DBEB /* RJHTMLScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJHTMLScanner.m; path = RevJetSDK/Classes/RJHTMLScanner.m; sourceTree = "<group>"; };
+		5CDCBEE492FB523CFA8313E6F4C53756 /* RJMRAID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAID.m; sourceTree = "<group>"; };
+		5D61DD2DB5429C71548F4943734DA161 /* Pods-RevJetSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RevJetSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EE25E5E0692C01EDB905F740434A0EE /* RevJetSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RevJetSDK.modulemap; sourceTree = "<group>"; };
+		5FE80D144A7AC3091E0D1384A88DD298 /* RJMRAIDInterstitialAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDInterstitialAdapter.m; sourceTree = "<group>"; };
+		65ECC824A95CB22CBFA974893478193F /* Pods-RevJetSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RevJetSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6703881813DBD35785D399FCE6F42E6F /* RevJetSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevJetSDK-dummy.m"; sourceTree = "<group>"; };
+		67502689F705138990EE88D02740729D /* RJConversionReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJConversionReachability.h; sourceTree = "<group>"; };
+		686A3666FEB286B560A0F176394B51E3 /* RJBaseAdapterInterstitial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJBaseAdapterInterstitial.m; path = RevJetSDK/Classes/RJBaseAdapterInterstitial.m; sourceTree = "<group>"; };
+		6A5E6A825D05CF83DA16E9AF88EBEDC8 /* RJBaseInterstitialController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJBaseInterstitialController.m; sourceTree = "<group>"; };
+		6D7EDA52561D1FDE5ABFFC227924AC83 /* RJWebBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJWebBrowser.h; sourceTree = "<group>"; };
+		6DDB898DE99908A9207EDB43E0D4F2A0 /* Pods-RevJetSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RevJetSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		701FCD7703E9EFA762ED5414174904B9 /* Pods_RevJetSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RevJetSDK_Example.framework; path = "Pods-RevJetSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B1437C0C12B44FB2ADF6B2648EFA27 /* RJVASTToolbarViewCountdownElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTToolbarViewCountdownElement.m; sourceTree = "<group>"; };
+		737E54068112718F0977A434640400FE /* RJStatusBarVisibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJStatusBarVisibility.h; path = RevJetSDK/Classes/RJStatusBarVisibility.h; sourceTree = "<group>"; };
+		75AC75CA71F65302669CD5AD5BBA1AE4 /* RJMRAIDNativeExpandEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeExpandEvent.m; sourceTree = "<group>"; };
+		7855E611937CF4DC7BAA9CCD8299F220 /* RJNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJNetwork.m; path = RevJetSDK/Classes/RJNetwork.m; sourceTree = "<group>"; };
+		7918352B368BCA8E559F8699E187E613 /* RJMRAIDNativeExpandEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeExpandEvent.h; sourceTree = "<group>"; };
+		7CE5E501923E5651393DD91AB73DB696 /* RJXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJXMLParser.m; sourceTree = "<group>"; };
+		7DBABB5EB036C087D0F724AF1738A8A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		814A23CEBA111C33668392EDB6D329BF /* Pods-RevJetSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RevJetSDK_Example.modulemap"; sourceTree = "<group>"; };
+		82781658AA74478BF98FE5E333380999 /* RJURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJURL.m; path = RevJetSDK/Classes/RJURL.m; sourceTree = "<group>"; };
+		827B544B5A778B3A37F0814C4992B704 /* Pods-RevJetSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevJetSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82EF112CFB692900DAD55AADF8A6E26C /* RJConversionConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJConversionConfig.m; sourceTree = "<group>"; };
+		84A98EA084FC70B42948C5C0C05C2A78 /* RJNetworkInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJNetworkInterstitial.h; path = RevJetSDK/Classes/RJNetworkInterstitial.h; sourceTree = "<group>"; };
+		87741A2A636A3E4A80F19417542699B9 /* RJMRAIDNativeOpenEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeOpenEvent.m; sourceTree = "<group>"; };
+		879079E8F34FD791AD515F7036EB8652 /* RevJetSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevJetSDK-umbrella.h"; sourceTree = "<group>"; };
+		8AE26D46DB7DCE705EF77AD7B55DF969 /* RJVASTToolbarViewLearnMoreButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTToolbarViewLearnMoreButton.h; sourceTree = "<group>"; };
+		8BC46C081972DA4ED70EAA1CE8714BE2 /* RJMRAID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAID.h; sourceTree = "<group>"; };
+		8C112C5CA0A6483FDEA65C73243FEE1E /* RJWebBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJWebBrowser.m; sourceTree = "<group>"; };
+		8D2D299586C737387F3C05A7D08BDE56 /* RJHTMLScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJHTMLScanner.h; path = RevJetSDK/Classes/RJHTMLScanner.h; sourceTree = "<group>"; };
+		8F28AD7F0E05DD442F00C5930225D03F /* RJMRAIDNativeStorePictureEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeStorePictureEvent.m; sourceTree = "<group>"; };
+		94C063A3E929604CA346DECC4F6E80D6 /* RJVASTAdRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTAdRepresentation.h; sourceTree = "<group>"; };
+		97E0040CC414D69A31D4E3BCF1433EE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A068B9FCCE7503EF285921741FBCB5B2 /* RJMRAIDInterstitialController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDInterstitialController.h; sourceTree = "<group>"; };
+		A09BAC6166933EA78979026E7A54E0AF /* RJXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJXMLParser.h; sourceTree = "<group>"; };
+		A197B7C8B00B4828EE5A121F9C1294A1 /* RJBaseAdapterInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJBaseAdapterInterstitial.h; path = RevJetSDK/Classes/RJBaseAdapterInterstitial.h; sourceTree = "<group>"; };
+		A20DC081F17F4DF74964BDA39561181A /* Pods-RevJetSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevJetSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		A3A83594E891671A44244770BFC8E80B /* RJAdapterInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJAdapterInterstitial.h; sourceTree = "<group>"; };
+		A5A83E98C3FBB8F452B2AC6111AAB8C2 /* RJUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJUtilities.h; sourceTree = "<group>"; };
+		A6EEE5C4AA869142F61CC61551547498 /* RJWebBrowserDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJWebBrowserDelegate.h; sourceTree = "<group>"; };
+		ACB09FDC6281E3B4FD19651DEA48DA5B /* RJSlotDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJSlotDelegate.h; path = RevJetSDK/Classes/RJSlotDelegate.h; sourceTree = "<group>"; };
+		ACBB71057CA703995DED71845E9E7874 /* RJMRAIDNativeOpenEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeOpenEvent.h; sourceTree = "<group>"; };
+		AD72D984FA0C47D2237532FD0ADDA08E /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/EventKitUI.framework; sourceTree = DEVELOPER_DIR; };
+		B14975890A90A81B7E90439ABA07F036 /* RJBaseInterstitialController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJBaseInterstitialController.h; sourceTree = "<group>"; };
+		B1996586B2F874C6CD448258656D35E4 /* RJMRAIDNativeUseCustomCloseEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeUseCustomCloseEvent.h; sourceTree = "<group>"; };
+		B231B81315A40AE62438075D5AEC912A /* RJVASTXMLParserAggregator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTXMLParserAggregator.h; sourceTree = "<group>"; };
+		B2AB1D30DD3F5874EA533DD8082D2789 /* RJConversionTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJConversionTracker.h; sourceTree = "<group>"; };
+		B2BEB9D9EC5911371C79CAA75EA3C05F /* RJMRAIDScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDScript.m; sourceTree = "<group>"; };
+		B851F787826B7C849B587AFFA06D7665 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		B94D8E52F8F808B868193EE43559D8C8 /* RJCustomEventAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJCustomEventAdapter.h; sourceTree = "<group>"; };
+		BCDD9BC1273804E8159253368FC79D90 /* RJMRAIDExpandViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDExpandViewController.h; sourceTree = "<group>"; };
+		BDB816441260AA52C0F7877AF3D3CDB2 /* RevJetSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevJetSDK.debug.xcconfig; sourceTree = "<group>"; };
+		BF5BA84FC835C96B40973D1BD09B00C3 /* Pods-RevJetSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevJetSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF9F943CCF25D156D2FD46ED743AAD87 /* RJCustomEventAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJCustomEventAdapter.m; sourceTree = "<group>"; };
+		C027ECAA6938B0DA3DF2AB41A275F4A3 /* RJVASTComponentRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTComponentRepresentation.h; sourceTree = "<group>"; };
+		C1B9F578EF8F4B837B80DE163CAC7D78 /* Pods-RevJetSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevJetSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C2AF26A32375C748C482E35AC96D55ED /* RJSlotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJSlotView.h; path = RevJetSDK/Classes/RJSlotView.h; sourceTree = "<group>"; };
+		C345868AA5B5F962860148DF877DB18C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C346EA894EBF6A1EDDAC18317FBD2EE9 /* RJReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJReachability.m; path = RevJetSDK/Classes/RJReachability.m; sourceTree = "<group>"; };
+		C5D87C34DD7472232AB0AAFCC048A7FA /* RJNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJNetwork.h; path = RevJetSDK/Classes/RJNetwork.h; sourceTree = "<group>"; };
+		C6532357D778867B030DD945D732D21C /* RJVASTInterstitialAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTInterstitialAdapter.m; sourceTree = "<group>"; };
+		C6979A0C800A9E4A566C39E1ABC4B10E /* RJNetworkMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJNetworkMapping.h; path = RevJetSDK/Classes/RJNetworkMapping.h; sourceTree = "<group>"; };
+		C75872C052B24F761433427DC3BD8636 /* Pods-RevJetSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RevJetSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		C83CFF760E94E60641F8F6480AA1FB9F /* RJVASTInterstitialAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTInterstitialAdapter.h; sourceTree = "<group>"; };
+		C849A775BB97182EF2C0C051D66F138A /* RJMRAIDNativeCalendarEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeCalendarEvent.h; sourceTree = "<group>"; };
+		CA1F18A1219053167A9EC4EFF2C8DCEA /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBE871DE14B8758BCF08C41983C5A4A1 /* RJMRAIDNativeOrientationPropertiesEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeOrientationPropertiesEvent.m; sourceTree = "<group>"; };
+		CC1FCB165D76396740DEACA1A117EE34 /* RJAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJAdapter.h; sourceTree = "<group>"; };
+		CCC94649DF6790B3CB9B4C551F0E3CFF /* RJReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJReachability.h; path = RevJetSDK/Classes/RJReachability.h; sourceTree = "<group>"; };
+		CDB01A89373D8D4784B1B256466E5A4F /* RJMRAIDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDView.h; sourceTree = "<group>"; };
+		CDCCAC2EC52A3078FDE4885958E3A062 /* RJGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJGlobal.h; path = RevJetSDK/Classes/RJGlobal.h; sourceTree = "<group>"; };
+		CE6E0449F3F5C43226498914067BF026 /* RJVASTToolbarViewLearnMoreButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTToolbarViewLearnMoreButton.m; sourceTree = "<group>"; };
+		D0DBE9431363AC820A8A39325BE30446 /* RJMRAIDNativeEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDNativeEvent.m; sourceTree = "<group>"; };
+		D22FA78EBA8170243F1A49A74326F829 /* RJMRAIDNativeEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeEvent.h; sourceTree = "<group>"; };
+		D264C040D9114B5E7047211DD3BC69B1 /* RJVASTComponentRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTComponentRepresentation.m; sourceTree = "<group>"; };
+		D8CE8521996D727793609CD727D4F816 /* RJMRAIDAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDAdapter.m; sourceTree = "<group>"; };
+		D914E1FF661225229A98E69A66220D25 /* RJMRAIDExpandViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDExpandViewController.m; sourceTree = "<group>"; };
+		DB575455BA6A2E104F96D40F74D9249E /* RJGlobal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJGlobal.m; path = RevJetSDK/Classes/RJGlobal.m; sourceTree = "<group>"; };
+		DDFF6EFFB46ECC132F55EDDA71A1CD15 /* RJStatusBarVisibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJStatusBarVisibility.m; path = RevJetSDK/Classes/RJStatusBarVisibility.m; sourceTree = "<group>"; };
+		DFB7E227CF21DC70BCA46C750742FDE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E02C4BA7334A0676B1EB9996BA2A8DD8 /* Pods-RevJetSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevJetSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		E2DDA82D79AED627926BD5A805BF8080 /* RJMRAIDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJMRAIDView.m; sourceTree = "<group>"; };
+		E31717C0CC34721BFEE25CBD58A6619C /* RJUIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJUIImage.m; sourceTree = "<group>"; };
+		E40143A9CADEB52B1687C36C303BC707 /* RJConversionCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJConversionCommon.h; sourceTree = "<group>"; };
+		E687D0407AC17EB691DC9FB2551F3CBC /* RJVASTAdRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTAdRepresentation.m; sourceTree = "<group>"; };
+		E70BA0A370845405D444C2B94BE4AD3B /* RJMRAIDNativeCloseEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeCloseEvent.h; sourceTree = "<group>"; };
+		EA8FEA28981DAAB364C0B473D42D9C33 /* RJVASTToolbarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTToolbarView.m; sourceTree = "<group>"; };
+		EF99BF5B3E05EF088BE6D69870B0003F /* RevJetSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevJetSDK.release.xcconfig; sourceTree = "<group>"; };
+		F1457CBCE9DB510BE7781AA5F3A4D66A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		F1EBBBB2A36F72A74890F3E57D11F6EE /* RJSlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJSlot.h; path = RevJetSDK/Classes/RJSlot.h; sourceTree = "<group>"; };
+		F329E6C8FDC8DDADADDF8CD2FF8ECA9E /* RJConversionReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJConversionReachability.m; sourceTree = "<group>"; };
+		F3E4DC7EE21342B94A3856864C8591A7 /* Pods-RevJetSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RevJetSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		F5F7DE84FAFC362F5FBA036A68EC8D2C /* RJBaseAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJBaseAdapter.m; path = RevJetSDK/Classes/RJBaseAdapter.m; sourceTree = "<group>"; };
+		F6A1FB4EB8091A767AABF1A39C383319 /* RJMRAIDNativeOrientationPropertiesEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJMRAIDNativeOrientationPropertiesEvent.h; sourceTree = "<group>"; };
+		F7E015643AB1FC1118E1F4BA0ECBDBE4 /* RJConversionCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJConversionCommon.m; sourceTree = "<group>"; };
+		F81CD9B01DE3DE5B02180C3EBFFFCC42 /* RJVASTCompanionAdRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RJVASTCompanionAdRepresentation.h; sourceTree = "<group>"; };
+		F8BB84629D5ECAF0FF75811EFFBB2FA4 /* RevJetSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RevJetSDK-Info.plist"; sourceTree = "<group>"; };
+		F92D928D60A22CA19CFF1EEB89E404E6 /* RJSlot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RJSlot.m; path = RevJetSDK/Classes/RJSlot.m; sourceTree = "<group>"; };
+		FBDCCD2BA260CFF2CEFB5DA73EADE899 /* RJAdapterInterstitial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJAdapterInterstitial.m; sourceTree = "<group>"; };
+		FBF46DCB1CCDC0F606141C8E103F9E33 /* Pods-RevJetSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevJetSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC8789C75092F3252D6FA019FFBC2254 /* RJStoreProductViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJStoreProductViewController.m; sourceTree = "<group>"; };
+		FEA4A9C048326F02F95ADB5DF2221F81 /* Pods_RevJetSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RevJetSDK_Tests.framework; path = "Pods-RevJetSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF03CDB1F81D96F23D7D61C318C69313 /* RJVASTRepresentationUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RJVASTRepresentationUtilities.m; sourceTree = "<group>"; };
+		FF05166D8C945534966EADBEDBC89656 /* Pods-RevJetSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RevJetSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		129E5544D119F20983A05586D428A206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FB82B21DA6C4145CCCA62F7E11BC20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4A8FD382F8D385854BDB0A0B6AFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4537C86741894B11B9227C193353EA65 /* AdSupport.framework in Frameworks */,
+				E26DE0EAB5E21E7A69F10457ABD65E21 /* CoreGraphics.framework in Frameworks */,
+				D6A56FF99F510FD2A417693C199002C9 /* CoreTelephony.framework in Frameworks */,
+				692CADC704A9738ABB399E7FB83E1995 /* EventKit.framework in Frameworks */,
+				C3F34D58437D554D3D14049F7037B80A /* EventKitUI.framework in Frameworks */,
+				1AE892CE5483E6F7CC0369EA45B0D02F /* Foundation.framework in Frameworks */,
+				3DF5B0242284DB7BCAE86BAFE507DD78 /* ImageIO.framework in Frameworks */,
+				18A780D97179CA003AFF82EEAB74620D /* MediaPlayer.framework in Frameworks */,
+				B5C244D57987013069D74C0C9B78B48E /* StoreKit.framework in Frameworks */,
+				04E7DC119542769AD433591B064EE16C /* SystemConfiguration.framework in Frameworks */,
+				A578682B04C881D14A7CF54F15C13BF7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AC334A001AD837C9D4331E1EB513C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44208FDEEC75FC3B23DB8AB7425F2ACA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5BFC43FEB9FFFC89B0BFA7B7EF1717 /* RJ */ = {
+			isa = PBXGroup;
+			children = (
+				CC1FCB165D76396740DEACA1A117EE34 /* RJAdapter.h */,
+				58B802BB833D00250D582FED2BA4E592 /* RJAdapter.m */,
+				A3A83594E891671A44244770BFC8E80B /* RJAdapterInterstitial.h */,
+				FBDCCD2BA260CFF2CEFB5DA73EADE899 /* RJAdapterInterstitial.m */,
+				B14975890A90A81B7E90439ABA07F036 /* RJBaseInterstitialController.h */,
+				6A5E6A825D05CF83DA16E9AF88EBEDC8 /* RJBaseInterstitialController.m */,
+				1038DAB86C23B6188D6761A375841530 /* RJInterstitialController.h */,
+				0BB6A27DCD6D8E55147B7A69C701F15F /* RJInterstitialController.m */,
+				077EB4B95BFC201F8D49220F05C1AB94 /* RJInterstitialControllerDelegate.h */,
+				28679362170650A41622995A0C740353 /* RJPasteboard.h */,
+				2F08F4AF58BCD48DDD956068FF407E93 /* RJPasteboard.m */,
+				3B4A036F0D941A886D71E2E579303B43 /* RJStoreProductViewController.h */,
+				FC8789C75092F3252D6FA019FFBC2254 /* RJStoreProductViewController.m */,
+				6D7EDA52561D1FDE5ABFFC227924AC83 /* RJWebBrowser.h */,
+				8C112C5CA0A6483FDEA65C73243FEE1E /* RJWebBrowser.m */,
+				A6EEE5C4AA869142F61CC61551547498 /* RJWebBrowserDelegate.h */,
+			);
+			name = RJ;
+			path = RevJetSDK/Classes/RJ;
+			sourceTree = "<group>";
+		};
+		168813C182C01430F82FD36B82B09D29 /* CustomEvent */ = {
+			isa = PBXGroup;
+			children = (
+				B94D8E52F8F808B868193EE43559D8C8 /* RJCustomEventAdapter.h */,
+				BF9F943CCF25D156D2FD46ED743AAD87 /* RJCustomEventAdapter.m */,
+			);
+			name = CustomEvent;
+			path = RevJetSDK/Classes/CustomEvent;
+			sourceTree = "<group>";
+		};
+		1FF8DCE331B841F19403BDB4D2A47E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				701FCD7703E9EFA762ED5414174904B9 /* Pods_RevJetSDK_Example.framework */,
+				FEA4A9C048326F02F95ADB5DF2221F81 /* Pods_RevJetSDK_Tests.framework */,
+				52D44E640097815F606F42D535EAA6E5 /* RevJetSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AC89EB3BAA5F127C8C36349E1AD104 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				B231B81315A40AE62438075D5AEC912A /* RJVASTXMLParserAggregator.h */,
+				4E8D9694CD695805F8665E442D37078B /* RJVASTXMLParserAggregator.m */,
+				A09BAC6166933EA78979026E7A54E0AF /* RJXMLParser.h */,
+				7CE5E501923E5651393DD91AB73DB696 /* RJXMLParser.m */,
+			);
+			name = Parser;
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		2D6CDBEF73DF4C77AE5B94025398C642 /* Pods-RevJetSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				814A23CEBA111C33668392EDB6D329BF /* Pods-RevJetSDK_Example.modulemap */,
+				5D61DD2DB5429C71548F4943734DA161 /* Pods-RevJetSDK_Example-acknowledgements.markdown */,
+				4B2922DC5AAB814D222A78C44F3BD52F /* Pods-RevJetSDK_Example-acknowledgements.plist */,
+				31046B82A9FF7BAD5DF92257FAD0D2E4 /* Pods-RevJetSDK_Example-dummy.m */,
+				6DDB898DE99908A9207EDB43E0D4F2A0 /* Pods-RevJetSDK_Example-frameworks.sh */,
+				E02C4BA7334A0676B1EB9996BA2A8DD8 /* Pods-RevJetSDK_Example-Info.plist */,
+				C75872C052B24F761433427DC3BD8636 /* Pods-RevJetSDK_Example-umbrella.h */,
+				C1B9F578EF8F4B837B80DE163CAC7D78 /* Pods-RevJetSDK_Example.debug.xcconfig */,
+				BF5BA84FC835C96B40973D1BD09B00C3 /* Pods-RevJetSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-RevJetSDK_Example";
+			path = "Target Support Files/Pods-RevJetSDK_Example";
+			sourceTree = "<group>";
+		};
+		45A40A885E4DA660A0AA858FD834F2CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6CDBEF73DF4C77AE5B94025398C642 /* Pods-RevJetSDK_Example */,
+				7FAC0DBB5EED11805700D537FBEB2677 /* Pods-RevJetSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		48A7B7CE1BC11DFAA128559A9ADA8564 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8520989BEF65DF07891A911A775B7264 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B5645875BA47007D3F1D6F660722655 /* Representation */ = {
+			isa = PBXGroup;
+			children = (
+				94C063A3E929604CA346DECC4F6E80D6 /* RJVASTAdRepresentation.h */,
+				E687D0407AC17EB691DC9FB2551F3CBC /* RJVASTAdRepresentation.m */,
+				F81CD9B01DE3DE5B02180C3EBFFFCC42 /* RJVASTCompanionAdRepresentation.h */,
+				35BED166C97AE9DAFB9E67E04D54745D /* RJVASTCompanionAdRepresentation.m */,
+				C027ECAA6938B0DA3DF2AB41A275F4A3 /* RJVASTComponentRepresentation.h */,
+				D264C040D9114B5E7047211DD3BC69B1 /* RJVASTComponentRepresentation.m */,
+				23BF4862834E9ED89154CCF78A40FA30 /* RJVASTMediaFileRepresentation.h */,
+				45C332A60E24E2C61E4E9224B11E3CA5 /* RJVASTMediaFileRepresentation.m */,
+				403051D0438A51FD735C647C5248B0C8 /* RJVASTRepresentationUtilities.h */,
+				FF03CDB1F81D96F23D7D61C318C69313 /* RJVASTRepresentationUtilities.m */,
+			);
+			name = Representation;
+			path = Representation;
+			sourceTree = "<group>";
+		};
+		52C18F5B55C3F89352188A6F575A46D5 /* AnimatedGIF */ = {
+			isa = PBXGroup;
+			children = (
+				056FE86B5BE74FE9F84AF7587CF47ACE /* RJUIImage.h */,
+				E31717C0CC34721BFEE25CBD58A6619C /* RJUIImage.m */,
+			);
+			name = AnimatedGIF;
+			path = AnimatedGIF;
+			sourceTree = "<group>";
+		};
+		62DC1428AC9FFA1E0E5DCED1AB15BB74 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A5A83E98C3FBB8F452B2AC6111AAB8C2 /* RJUtilities.h */,
+				265951F151024FFEF847E35D81E8CD42 /* RJUtilities.m */,
+			);
+			name = Utilities;
+			path = RevJetSDK/Classes/Utilities;
+			sourceTree = "<group>";
+		};
+		74F14AC49E353C47240E4FF379871286 /* RevJetSDK */ = {
+			isa = PBXGroup;
+			children = (
+				398CBAB450379D12EA1879E02AB9AC38 /* RevJetSDK.h */,
+				039309FDA3CE5FCC5CBA8F244E295651 /* RJAdapterDelegate.h */,
+				3E85F732DF2B0B1C25F1AAF4F3E15362 /* RJBaseAdapter.h */,
+				F5F7DE84FAFC362F5FBA036A68EC8D2C /* RJBaseAdapter.m */,
+				A197B7C8B00B4828EE5A121F9C1294A1 /* RJBaseAdapterInterstitial.h */,
+				686A3666FEB286B560A0F176394B51E3 /* RJBaseAdapterInterstitial.m */,
+				CDCCAC2EC52A3078FDE4885958E3A062 /* RJGlobal.h */,
+				DB575455BA6A2E104F96D40F74D9249E /* RJGlobal.m */,
+				8D2D299586C737387F3C05A7D08BDE56 /* RJHTMLScanner.h */,
+				5A0D090A127C3FEF0BBB6FED0586DBEB /* RJHTMLScanner.m */,
+				C5D87C34DD7472232AB0AAFCC048A7FA /* RJNetwork.h */,
+				7855E611937CF4DC7BAA9CCD8299F220 /* RJNetwork.m */,
+				84A98EA084FC70B42948C5C0C05C2A78 /* RJNetworkInterstitial.h */,
+				1F7AED07D8135A3F5209EDB6B5F8D2DD /* RJNetworkInterstitial.m */,
+				C6979A0C800A9E4A566C39E1ABC4B10E /* RJNetworkMapping.h */,
+				01488DF2407CD07265976A587179AF97 /* RJNetworkMapping.m */,
+				CCC94649DF6790B3CB9B4C551F0E3CFF /* RJReachability.h */,
+				C346EA894EBF6A1EDDAC18317FBD2EE9 /* RJReachability.m */,
+				F1EBBBB2A36F72A74890F3E57D11F6EE /* RJSlot.h */,
+				F92D928D60A22CA19CFF1EEB89E404E6 /* RJSlot.m */,
+				ACB09FDC6281E3B4FD19651DEA48DA5B /* RJSlotDelegate.h */,
+				2602107618AD71EFF5E7A1E18CCCF653 /* RJSlotInterstitial.h */,
+				1BE50D59C34EBF5E67202D86A3F2F820 /* RJSlotInterstitial.m */,
+				C2AF26A32375C748C482E35AC96D55ED /* RJSlotView.h */,
+				137DD3599FFC3D84A7ADD89012FCB529 /* RJSlotView.m */,
+				02687779F3BB9F98E95A53D775D3D44C /* RJSlotViewDelegate.h */,
+				737E54068112718F0977A434640400FE /* RJStatusBarVisibility.h */,
+				DDFF6EFFB46ECC132F55EDDA71A1CD15 /* RJStatusBarVisibility.m */,
+				188495F3BC033F0EAD92749158C65C95 /* RJURL.h */,
+				82781658AA74478BF98FE5E333380999 /* RJURL.m */,
+				C2370E6788F9F0C6436E0E7975FB02F4 /* Analytics */,
+				A6AAE2ADCCF327B3C7FBD571428C78BF /* ConversionTracker */,
+				168813C182C01430F82FD36B82B09D29 /* CustomEvent */,
+				E2574ACFE7F434D1FF1EE56EE25A09ED /* MRAID */,
+				9DF890906BF015DE30D4086D90FEA255 /* Pod */,
+				0E5BFC43FEB9FFFC89B0BFA7B7EF1717 /* RJ */,
+				C21984E1946B235E37F5D67AB1B78804 /* Support Files */,
+				62DC1428AC9FFA1E0E5DCED1AB15BB74 /* Utilities */,
+				8896341D8998AB576934CCD427B8A690 /* VAST */,
+			);
+			name = RevJetSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7FAC0DBB5EED11805700D537FBEB2677 /* Pods-RevJetSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F3E4DC7EE21342B94A3856864C8591A7 /* Pods-RevJetSDK_Tests.modulemap */,
+				65ECC824A95CB22CBFA974893478193F /* Pods-RevJetSDK_Tests-acknowledgements.markdown */,
+				230510A6A5581C5F652A14C86680585E /* Pods-RevJetSDK_Tests-acknowledgements.plist */,
+				FF05166D8C945534966EADBEDBC89656 /* Pods-RevJetSDK_Tests-dummy.m */,
+				A20DC081F17F4DF74964BDA39561181A /* Pods-RevJetSDK_Tests-Info.plist */,
+				4D0C997F45B6341CD1CA32F126DD9757 /* Pods-RevJetSDK_Tests-umbrella.h */,
+				FBF46DCB1CCDC0F606141C8E103F9E33 /* Pods-RevJetSDK_Tests.debug.xcconfig */,
+				827B544B5A778B3A37F0814C4992B704 /* Pods-RevJetSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-RevJetSDK_Tests";
+			path = "Target Support Files/Pods-RevJetSDK_Tests";
+			sourceTree = "<group>";
+		};
+		8520989BEF65DF07891A911A775B7264 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B851F787826B7C849B587AFFA06D7665 /* AdSupport.framework */,
+				07C09F0B87406C1E1B2A87126B068DD0 /* CoreGraphics.framework */,
+				1680AD29ACC86C66926747B1FAE07138 /* CoreTelephony.framework */,
+				CA1F18A1219053167A9EC4EFF2C8DCEA /* EventKit.framework */,
+				AD72D984FA0C47D2237532FD0ADDA08E /* EventKitUI.framework */,
+				48D1511845CA2A9326C006343E099E65 /* Foundation.framework */,
+				1928B0D932801D92A7E25D50D77FA2C5 /* ImageIO.framework */,
+				2A05B6AF6615B21E80601B2C2E81E850 /* MediaPlayer.framework */,
+				F1457CBCE9DB510BE7781AA5F3A4D66A /* StoreKit.framework */,
+				7DBABB5EB036C087D0F724AF1738A8A8 /* SystemConfiguration.framework */,
+				C345868AA5B5F962860148DF877DB18C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8896341D8998AB576934CCD427B8A690 /* VAST */ = {
+			isa = PBXGroup;
+			children = (
+				C83CFF760E94E60641F8F6480AA1FB9F /* RJVASTInterstitialAdapter.h */,
+				C6532357D778867B030DD945D732D21C /* RJVASTInterstitialAdapter.m */,
+				28DD9B7EE673957A933E6174BC8A400C /* RJVASTInterstitialController.h */,
+				5047AD60E6AFC92E458A4C7A7B62A75F /* RJVASTInterstitialController.m */,
+				52C18F5B55C3F89352188A6F575A46D5 /* AnimatedGIF */,
+				22AC89EB3BAA5F127C8C36349E1AD104 /* Parser */,
+				4B5645875BA47007D3F1D6F660722655 /* Representation */,
+				D61ACDF01AC1BC596DA3044AD748E171 /* Toolbar */,
+			);
+			name = VAST;
+			path = RevJetSDK/Classes/VAST;
+			sourceTree = "<group>";
+		};
+		9DF890906BF015DE30D4086D90FEA255 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				97E0040CC414D69A31D4E3BCF1433EE1 /* LICENSE */,
+				DFB7E227CF21DC70BCA46C750742FDE5 /* README.md */,
+				2433CEA03418FCAEBCCE25AC603F16EF /* RevJetSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A6AAE2ADCCF327B3C7FBD571428C78BF /* ConversionTracker */ = {
+			isa = PBXGroup;
+			children = (
+				E40143A9CADEB52B1687C36C303BC707 /* RJConversionCommon.h */,
+				F7E015643AB1FC1118E1F4BA0ECBDBE4 /* RJConversionCommon.m */,
+				247A11A55CA2016B29FCB714E1BCDB56 /* RJConversionConfig.h */,
+				82EF112CFB692900DAD55AADF8A6E26C /* RJConversionConfig.m */,
+				67502689F705138990EE88D02740729D /* RJConversionReachability.h */,
+				F329E6C8FDC8DDADADDF8CD2FF8ECA9E /* RJConversionReachability.m */,
+				B2AB1D30DD3F5874EA533DD8082D2789 /* RJConversionTracker.h */,
+				077150FE770D1105539B298B768D37EA /* RJConversionTracker.m */,
+			);
+			name = ConversionTracker;
+			path = RevJetSDK/Classes/ConversionTracker;
+			sourceTree = "<group>";
+		};
+		ABD353755EF2CACCCD4961E8177E8E55 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74F14AC49E353C47240E4FF379871286 /* RevJetSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C21984E1946B235E37F5D67AB1B78804 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EE25E5E0692C01EDB905F740434A0EE /* RevJetSDK.modulemap */,
+				6703881813DBD35785D399FCE6F42E6F /* RevJetSDK-dummy.m */,
+				F8BB84629D5ECAF0FF75811EFFBB2FA4 /* RevJetSDK-Info.plist */,
+				3A65F7B5422BA36E0ADE169312104362 /* RevJetSDK-prefix.pch */,
+				879079E8F34FD791AD515F7036EB8652 /* RevJetSDK-umbrella.h */,
+				BDB816441260AA52C0F7877AF3D3CDB2 /* RevJetSDK.debug.xcconfig */,
+				EF99BF5B3E05EF088BE6D69870B0003F /* RevJetSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RevJetSDK";
+			sourceTree = "<group>";
+		};
+		C2370E6788F9F0C6436E0E7975FB02F4 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				22E02AFF1A5F770CF79FA839649B0FE4 /* RJPixelsQueue.h */,
+				52548D79B07B5E593FFF7FED4B98BBF7 /* RJPixelsQueue.m */,
+				318064A44FB5EBE11F8EB8C94765321F /* RJPixelsTracker.h */,
+				02471DD5BF4D2419E65B4A0E57066830 /* RJPixelsTracker.m */,
+			);
+			name = Analytics;
+			path = RevJetSDK/Classes/Analytics;
+			sourceTree = "<group>";
+		};
+		CD4B257951F0D082BCEBF677CF0EA23B /* NativeEvents */ = {
+			isa = PBXGroup;
+			children = (
+				BCDD9BC1273804E8159253368FC79D90 /* RJMRAIDExpandViewController.h */,
+				D914E1FF661225229A98E69A66220D25 /* RJMRAIDExpandViewController.m */,
+				C849A775BB97182EF2C0C051D66F138A /* RJMRAIDNativeCalendarEvent.h */,
+				1DFE7EE7A04E3897489F7C7C07E51D05 /* RJMRAIDNativeCalendarEvent.m */,
+				E70BA0A370845405D444C2B94BE4AD3B /* RJMRAIDNativeCloseEvent.h */,
+				3825CD09B22061CF78E086FCEA7B431F /* RJMRAIDNativeCloseEvent.m */,
+				D22FA78EBA8170243F1A49A74326F829 /* RJMRAIDNativeEvent.h */,
+				D0DBE9431363AC820A8A39325BE30446 /* RJMRAIDNativeEvent.m */,
+				09958E30F4425B3F9B7F1BF19E8A2463 /* RJMRAIDNativeEventFactory.h */,
+				172651011F5E4E4D66562167CB839C89 /* RJMRAIDNativeEventFactory.m */,
+				7918352B368BCA8E559F8699E187E613 /* RJMRAIDNativeExpandEvent.h */,
+				75AC75CA71F65302669CD5AD5BBA1AE4 /* RJMRAIDNativeExpandEvent.m */,
+				ACBB71057CA703995DED71845E9E7874 /* RJMRAIDNativeOpenEvent.h */,
+				87741A2A636A3E4A80F19417542699B9 /* RJMRAIDNativeOpenEvent.m */,
+				F6A1FB4EB8091A767AABF1A39C383319 /* RJMRAIDNativeOrientationPropertiesEvent.h */,
+				CBE871DE14B8758BCF08C41983C5A4A1 /* RJMRAIDNativeOrientationPropertiesEvent.m */,
+				491D5F89BBE1D7E33AFFD8C344A92CB7 /* RJMRAIDNativePlayVideoEvent.h */,
+				155C474BA4A9C81F3F3005574EF38D7A /* RJMRAIDNativePlayVideoEvent.m */,
+				00AC7F453C5FC473105B96833855CD5C /* RJMRAIDNativeStorePictureEvent.h */,
+				8F28AD7F0E05DD442F00C5930225D03F /* RJMRAIDNativeStorePictureEvent.m */,
+				B1996586B2F874C6CD448258656D35E4 /* RJMRAIDNativeUseCustomCloseEvent.h */,
+				400F86FA3D3669471E90C9A8593AB62B /* RJMRAIDNativeUseCustomCloseEvent.m */,
+			);
+			name = NativeEvents;
+			path = NativeEvents;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ABD353755EF2CACCCD4961E8177E8E55 /* Development Pods */,
+				48A7B7CE1BC11DFAA128559A9ADA8564 /* Frameworks */,
+				1FF8DCE331B841F19403BDB4D2A47E62 /* Products */,
+				45A40A885E4DA660A0AA858FD834F2CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D61ACDF01AC1BC596DA3044AD748E171 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				25AB32B451F640766A8A102F1CD93A4C /* RJVASTToolbarView.h */,
+				EA8FEA28981DAAB364C0B473D42D9C33 /* RJVASTToolbarView.m */,
+				2D29D2382C37CE993551C85F589040CE /* RJVASTToolbarViewCloseButton.h */,
+				32D97D8BA96775DDC47B7AD5221375FA /* RJVASTToolbarViewCloseButton.m */,
+				4E1847D79DF14736C4F307165CC64F71 /* RJVASTToolbarViewCountdownElement.h */,
+				72B1437C0C12B44FB2ADF6B2648EFA27 /* RJVASTToolbarViewCountdownElement.m */,
+				8AE26D46DB7DCE705EF77AD7B55DF969 /* RJVASTToolbarViewLearnMoreButton.h */,
+				CE6E0449F3F5C43226498914067BF026 /* RJVASTToolbarViewLearnMoreButton.m */,
+			);
+			name = Toolbar;
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		E2574ACFE7F434D1FF1EE56EE25A09ED /* MRAID */ = {
+			isa = PBXGroup;
+			children = (
+				8BC46C081972DA4ED70EAA1CE8714BE2 /* RJMRAID.h */,
+				5CDCBEE492FB523CFA8313E6F4C53756 /* RJMRAID.m */,
+				2F73CD7D3A1026660EBCA7354E737AE6 /* RJMRAIDAdapter.h */,
+				D8CE8521996D727793609CD727D4F816 /* RJMRAIDAdapter.m */,
+				26BA1EB30E1DC744122CC27D0869E2E4 /* RJMRAIDInterstitialAdapter.h */,
+				5FE80D144A7AC3091E0D1384A88DD298 /* RJMRAIDInterstitialAdapter.m */,
+				A068B9FCCE7503EF285921741FBCB5B2 /* RJMRAIDInterstitialController.h */,
+				3CB1B86ED64DB48A4C05BEB81EDDE25C /* RJMRAIDInterstitialController.m */,
+				5873C9B2758E810D737FECD73273425C /* RJMRAIDScript.h */,
+				B2BEB9D9EC5911371C79CAA75EA3C05F /* RJMRAIDScript.m */,
+				CDB01A89373D8D4784B1B256466E5A4F /* RJMRAIDView.h */,
+				E2DDA82D79AED627926BD5A805BF8080 /* RJMRAIDView.m */,
+				5673B4D7A39ECF395EE12A6918AB9CAB /* RJMRAIDViewDelegate.h */,
+				CD4B257951F0D082BCEBF677CF0EA23B /* NativeEvents */,
+			);
+			name = MRAID;
+			path = RevJetSDK/Classes/MRAID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24F22F225A554180878DDD3904603D14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C5E9231B61E496A1C421DDFBFBBCD8 /* Pods-RevJetSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F77A98969B5B55A1702D9D5FA4624E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928FF786967AE47AACB808AA57C868E4 /* RevJetSDK-umbrella.h in Headers */,
+				9431B3ACB5FA219354F5A4CD66F61404 /* RevJetSDK.h in Headers */,
+				9E4312376A6374AEC09C96D0117A27D3 /* RJAdapter.h in Headers */,
+				9B7E6AB6DB94666F70C26EA51DC7AF29 /* RJAdapterDelegate.h in Headers */,
+				0C477FB52A7B088C82EC8F18AE980893 /* RJAdapterInterstitial.h in Headers */,
+				CF880D4AFD08D1E65B8CC5A252C6C0A7 /* RJBaseAdapter.h in Headers */,
+				E4C7A196E79AB9E31836F8880AF0E0E1 /* RJBaseAdapterInterstitial.h in Headers */,
+				F901A1308A2E9196DA5B6322D87F23C0 /* RJBaseInterstitialController.h in Headers */,
+				9B43AE8AC5D306B9B2CAFCDCACE83CA1 /* RJConversionCommon.h in Headers */,
+				2A5B2D7951CCA883BD942E64D951D776 /* RJConversionConfig.h in Headers */,
+				94B888DCCB25C27A614489B070D708C5 /* RJConversionReachability.h in Headers */,
+				110A213B9268CE327062D26C56B2DDBB /* RJConversionTracker.h in Headers */,
+				F84D855391626DB7B4960A7A9750F05B /* RJCustomEventAdapter.h in Headers */,
+				962DB4783D80B60D1F6F625BF24D372F /* RJGlobal.h in Headers */,
+				8FAB208BFD013E0B43CF70AB1D36871B /* RJHTMLScanner.h in Headers */,
+				66A68433CE66C672E714EEE3D302989A /* RJInterstitialController.h in Headers */,
+				D3DEC3CE70464AD9730916B0143451DF /* RJInterstitialControllerDelegate.h in Headers */,
+				459870102AD37DCBEFEFEB4FFA0C1F60 /* RJMRAID.h in Headers */,
+				D596DB0D1141423BFC111864556D623C /* RJMRAIDAdapter.h in Headers */,
+				8296B290180FF7ABD10EB2ECAE2987E7 /* RJMRAIDExpandViewController.h in Headers */,
+				F71F500AF70B9E082C9A0E6FEDA43DFD /* RJMRAIDInterstitialAdapter.h in Headers */,
+				20D9527140BD490AC31F3BCB318CD583 /* RJMRAIDInterstitialController.h in Headers */,
+				C199AECF05305F8A70D631C86E03D011 /* RJMRAIDNativeCalendarEvent.h in Headers */,
+				8DF0EDCA0FB773925C8B2A88154BF0B0 /* RJMRAIDNativeCloseEvent.h in Headers */,
+				5FFA7ADA8A63B2145F3EFBE91440906E /* RJMRAIDNativeEvent.h in Headers */,
+				97D83F90D5CD7237353DF59A92E83FBA /* RJMRAIDNativeEventFactory.h in Headers */,
+				F665A9B2C7BDC328D2D4F3F6587CA57D /* RJMRAIDNativeExpandEvent.h in Headers */,
+				0E5CD4AE143C383292992C7F4D896B99 /* RJMRAIDNativeOpenEvent.h in Headers */,
+				68DFAEABB3B904E8A22681803304A225 /* RJMRAIDNativeOrientationPropertiesEvent.h in Headers */,
+				E7198A7A47ED84B712C9DA902B4FDD9F /* RJMRAIDNativePlayVideoEvent.h in Headers */,
+				4C48DFD715638D37384AE9D28A2FB79C /* RJMRAIDNativeStorePictureEvent.h in Headers */,
+				05471329F145060DD8DB24A70E3573DC /* RJMRAIDNativeUseCustomCloseEvent.h in Headers */,
+				450750F707611366A1CFDBEAE5C0E4B6 /* RJMRAIDScript.h in Headers */,
+				76A4FE99831122169A9C5BD4ACCBC009 /* RJMRAIDView.h in Headers */,
+				5C522F305AE7B8D2D6CB0DEB7A57D07F /* RJMRAIDViewDelegate.h in Headers */,
+				1970A97673A5BCFA6F7D6FD4DFE2EDBF /* RJNetwork.h in Headers */,
+				5BEF942B65CC6D7CA51F7B289B6B0397 /* RJNetworkInterstitial.h in Headers */,
+				4E7B649297DE2D8EC3C26BDE8E93A208 /* RJNetworkMapping.h in Headers */,
+				2D0EE5B09E5AD3CCF85B11C53708D240 /* RJPasteboard.h in Headers */,
+				5B1FEAAF81125D8AFCB039099D18A77A /* RJPixelsQueue.h in Headers */,
+				A9FAA3973E2CD25750ECA55DCDD21890 /* RJPixelsTracker.h in Headers */,
+				6CE92310D8E8D31C3A48257E3385CB67 /* RJReachability.h in Headers */,
+				4BCEFBC59EEE02767F1A6638DB6E2138 /* RJSlot.h in Headers */,
+				79BE7540A466D32752573367AE4AC6EF /* RJSlotDelegate.h in Headers */,
+				735AD1C599E7E60FAB15D483DCC82C30 /* RJSlotInterstitial.h in Headers */,
+				F8BED09AEC485FFEDF50ECBC446D3E64 /* RJSlotView.h in Headers */,
+				9F813780E2C0DF9D1F0239C395C12F5A /* RJSlotViewDelegate.h in Headers */,
+				292BA19594D919DC180FC18B94021B73 /* RJStatusBarVisibility.h in Headers */,
+				368AA1508BD5D92427B450189290D46A /* RJStoreProductViewController.h in Headers */,
+				8F77243ABBD46B9473D26678FF09E2F6 /* RJUIImage.h in Headers */,
+				B372E7EE9A25C98F13DF146EE887CE56 /* RJURL.h in Headers */,
+				5CFC721758472FEB665FC0FEE49D7603 /* RJUtilities.h in Headers */,
+				C265254EA611074284162FF871F97307 /* RJVASTAdRepresentation.h in Headers */,
+				E3143497F760A0BD6F0D05D5854A8D0A /* RJVASTCompanionAdRepresentation.h in Headers */,
+				A6D4FA2ADC5C26C77A94ABC9E58924DD /* RJVASTComponentRepresentation.h in Headers */,
+				469B45FEC80E50417A0C5956F5DB3E9F /* RJVASTInterstitialAdapter.h in Headers */,
+				1550E7C78A711968D80881F4E4D2B1E3 /* RJVASTInterstitialController.h in Headers */,
+				3C037EFE6C5BF2044BC6EB291BD58847 /* RJVASTMediaFileRepresentation.h in Headers */,
+				4073558D27B3F67522DC66BD8BCF39C1 /* RJVASTRepresentationUtilities.h in Headers */,
+				8B8A5E005EE560411799041017A62D17 /* RJVASTToolbarView.h in Headers */,
+				D41FD6B98979DC2E1B1B50732EB9126E /* RJVASTToolbarViewCloseButton.h in Headers */,
+				482240AADE441A3D9334293946B68534 /* RJVASTToolbarViewCountdownElement.h in Headers */,
+				F2A94C88563DC15449B5CEF7874C0FD5 /* RJVASTToolbarViewLearnMoreButton.h in Headers */,
+				810EF6AA48BF9D5A6CA3B355EC3B4317 /* RJVASTXMLParserAggregator.h in Headers */,
+				F11CA7EF0492A4623BDFA7CEF6DE2D1B /* RJWebBrowser.h in Headers */,
+				A02A0F41A28EFEFF9C534C0342A6850A /* RJWebBrowserDelegate.h in Headers */,
+				019D0911E6A9D7819F8667B7B2239E2A /* RJXMLParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54366AAE8500B1D258F2222AFB0EEB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43D5B3814F3C0A16BD86707E2F314FF /* Pods-RevJetSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00B3D86AE5C862DE6A2BCDD9F2E1AB05 /* Pods-RevJetSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE82F78106B728647895F443F755712 /* Build configuration list for PBXNativeTarget "Pods-RevJetSDK_Example" */;
+			buildPhases = (
+				24F22F225A554180878DDD3904603D14 /* Headers */,
+				5CFA4D2336C1616A1F5DF9CBDBDFF018 /* Sources */,
+				129E5544D119F20983A05586D428A206 /* Frameworks */,
+				4FA06DB52C6601398D47936DEA883634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526EDCB5CE13B646E6A4D1AA09831855 /* PBXTargetDependency */,
+			);
+			name = "Pods-RevJetSDK_Example";
+			productName = "Pods-RevJetSDK_Example";
+			productReference = 701FCD7703E9EFA762ED5414174904B9 /* Pods_RevJetSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		268256E6F5A0E7C1D639759FFA37F558 /* Pods-RevJetSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBF59DB15D51A6EF2F0A8852FE409AD /* Build configuration list for PBXNativeTarget "Pods-RevJetSDK_Tests" */;
+			buildPhases = (
+				E54366AAE8500B1D258F2222AFB0EEB0 /* Headers */,
+				07E64CCB98FF6200C77DCCF0EF9746C7 /* Sources */,
+				E9AC334A001AD837C9D4331E1EB513C3 /* Frameworks */,
+				E6F4A99645C5F64DB490408A9F468FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B347A2C526EF566509B2619759970ED /* PBXTargetDependency */,
+			);
+			name = "Pods-RevJetSDK_Tests";
+			productName = "Pods-RevJetSDK_Tests";
+			productReference = FEA4A9C048326F02F95ADB5DF2221F81 /* Pods_RevJetSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		420EA9E7903A53F0B28F4F30D358B3D6 /* RevJetSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885144779B7AA71E36345D8CCFF68348 /* Build configuration list for PBXNativeTarget "RevJetSDK" */;
+			buildPhases = (
+				4F77A98969B5B55A1702D9D5FA4624E9 /* Headers */,
+				97D6E3BE51C2E82B8F4C4A1AC07CF93A /* Sources */,
+				36D4A8FD382F8D385854BDB0A0B6AFFF /* Frameworks */,
+				06B7C8E8C27990FD433C3C5ED09775D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevJetSDK;
+			productName = RevJetSDK;
+			productReference = 52D44E640097815F606F42D535EAA6E5 /* RevJetSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1FF8DCE331B841F19403BDB4D2A47E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B3D86AE5C862DE6A2BCDD9F2E1AB05 /* Pods-RevJetSDK_Example */,
+				268256E6F5A0E7C1D639759FFA37F558 /* Pods-RevJetSDK_Tests */,
+				420EA9E7903A53F0B28F4F30D358B3D6 /* RevJetSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06B7C8E8C27990FD433C3C5ED09775D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA06DB52C6601398D47936DEA883634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F4A99645C5F64DB490408A9F468FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E64CCB98FF6200C77DCCF0EF9746C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D425B47D0B48261D3AD20ACF3EEBB3BC /* Pods-RevJetSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFA4D2336C1616A1F5DF9CBDBDFF018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB07AED5287C09F6EC0338B3D0664E92 /* Pods-RevJetSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6E3BE51C2E82B8F4C4A1AC07CF93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1956F3F6E2BE3705536C08AEC54409 /* RevJetSDK-dummy.m in Sources */,
+				605EBE32BFB367377B1903FC28249F21 /* RJAdapter.m in Sources */,
+				AA346702DFF2F9B0201775B86D02FC8E /* RJAdapterInterstitial.m in Sources */,
+				1081E39D66FE9D767B55DDCB54513C68 /* RJBaseAdapter.m in Sources */,
+				790E205BEC34FFDE1455644DB7F4E95F /* RJBaseAdapterInterstitial.m in Sources */,
+				2D8DF93FB2B2FA2B10EBCB4ADB092466 /* RJBaseInterstitialController.m in Sources */,
+				8BED7A11D21932AC60893A90ACA636D0 /* RJConversionCommon.m in Sources */,
+				8375F70525EE92F7FC6DCF622468AB0F /* RJConversionConfig.m in Sources */,
+				B8A13D94EFE3EDC903ABC15D89228179 /* RJConversionReachability.m in Sources */,
+				39F6FFA02023A1FBD75A65220B453CCE /* RJConversionTracker.m in Sources */,
+				393D436D5CD0064E9BA146D3B46774E2 /* RJCustomEventAdapter.m in Sources */,
+				E7CE1246EE35FC2C16697FF9B9A2709F /* RJGlobal.m in Sources */,
+				92AA63758D17815089948D2E3141B748 /* RJHTMLScanner.m in Sources */,
+				0F350C5E76E532B273F02AE36FEBE9AB /* RJInterstitialController.m in Sources */,
+				F375B103361D79EFDA56137A52C262F5 /* RJMRAID.m in Sources */,
+				2952C2B407684EFCCB5B4FF2C49ABD5A /* RJMRAIDAdapter.m in Sources */,
+				DDE43091F2BE351BAC7FFCD392D42D11 /* RJMRAIDExpandViewController.m in Sources */,
+				93320727E755E323B6ECDF734B6D26D0 /* RJMRAIDInterstitialAdapter.m in Sources */,
+				78DE6C8108E27E53C6289CBF73A731EA /* RJMRAIDInterstitialController.m in Sources */,
+				5C286B81E46793F75D5593A0390FEF6F /* RJMRAIDNativeCalendarEvent.m in Sources */,
+				FE52730E4DD822DE0C4DC61077896525 /* RJMRAIDNativeCloseEvent.m in Sources */,
+				91C4282A645F4040F189F82015A2DBC8 /* RJMRAIDNativeEvent.m in Sources */,
+				959068F181C489AEBC4C688027808A5C /* RJMRAIDNativeEventFactory.m in Sources */,
+				8BE63ECF7B8E2D26301C9F130FC29FA0 /* RJMRAIDNativeExpandEvent.m in Sources */,
+				F1C92A71CD1A2F4B1E4EEE205694C2FB /* RJMRAIDNativeOpenEvent.m in Sources */,
+				495C4CA1170E8CB3E744BF0E51D028C7 /* RJMRAIDNativeOrientationPropertiesEvent.m in Sources */,
+				A79F2A8371AD6D1D359093A0644F5B57 /* RJMRAIDNativePlayVideoEvent.m in Sources */,
+				87A074CC662493CFEA9B87FBECF359E8 /* RJMRAIDNativeStorePictureEvent.m in Sources */,
+				ACE4C119E2F327088A35213AC068B775 /* RJMRAIDNativeUseCustomCloseEvent.m in Sources */,
+				9A6CB79DA643DB06B10418916B8AFF68 /* RJMRAIDScript.m in Sources */,
+				3D2F2CE674FFDEFC27900FB15CF723FE /* RJMRAIDView.m in Sources */,
+				066187327AD956B0502769838AC37DD6 /* RJNetwork.m in Sources */,
+				4292A7693AAB4FCAED620A1467A60807 /* RJNetworkInterstitial.m in Sources */,
+				B2817E4C047540015F44B3D8D13DFACD /* RJNetworkMapping.m in Sources */,
+				39B945EFEE6290576EB8DB7CCB3E50D4 /* RJPasteboard.m in Sources */,
+				ABAE2A53A95088037B863B278C065DD9 /* RJPixelsQueue.m in Sources */,
+				65495AE7FF35DFAD839F2C148325FA18 /* RJPixelsTracker.m in Sources */,
+				7DF4C0804D463739EF2C4F33921F3A66 /* RJReachability.m in Sources */,
+				49A033BA5B512B68C7E0107358CCA326 /* RJSlot.m in Sources */,
+				2831AEAD002C317DC2A2E94772CB2E7A /* RJSlotInterstitial.m in Sources */,
+				1200EDDBF5BE44E1AE50131F07F75DED /* RJSlotView.m in Sources */,
+				8067149787F4C53570F45A844CD56742 /* RJStatusBarVisibility.m in Sources */,
+				A53E41FEFE54761F4B45BD65904C7E04 /* RJStoreProductViewController.m in Sources */,
+				9DC61F324568ABF8845848D0A674B19B /* RJUIImage.m in Sources */,
+				75A2FDF75C7252F898F929235D51732D /* RJURL.m in Sources */,
+				6C5C390839A7CAFB4E667F7BC8862FF2 /* RJUtilities.m in Sources */,
+				145DE93684377EB833FD6CA9A5532E8E /* RJVASTAdRepresentation.m in Sources */,
+				74C5A53551872066F398FE446838B01E /* RJVASTCompanionAdRepresentation.m in Sources */,
+				AD06CE809C62E992CD3616021496EB92 /* RJVASTComponentRepresentation.m in Sources */,
+				62BE59A0F02D132D2FCE3A97B76A8DCC /* RJVASTInterstitialAdapter.m in Sources */,
+				3BF8A201E791F8C17D47452D09EC3A24 /* RJVASTInterstitialController.m in Sources */,
+				1537DE66632F870C2535F716B1369590 /* RJVASTMediaFileRepresentation.m in Sources */,
+				9DB123072A15DE43A868490F9A680A3B /* RJVASTRepresentationUtilities.m in Sources */,
+				93B9935305FE5067248FC798997922CA /* RJVASTToolbarView.m in Sources */,
+				110B5065C1A2DCB9E69BD5894D534517 /* RJVASTToolbarViewCloseButton.m in Sources */,
+				5A072DA708DD3F80273468DD8E9B3359 /* RJVASTToolbarViewCountdownElement.m in Sources */,
+				994C04973149B67B1857104E93479B39 /* RJVASTToolbarViewLearnMoreButton.m in Sources */,
+				C698F59D40886D7F575BD0E517F871BA /* RJVASTXMLParserAggregator.m in Sources */,
+				D24B78E0AD0DDC942FF3ED8C5757115C /* RJWebBrowser.m in Sources */,
+				BA99775C6DB063BCE73FF186BECDE9B2 /* RJXMLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B347A2C526EF566509B2619759970ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RevJetSDK_Example";
+			target = 00B3D86AE5C862DE6A2BCDD9F2E1AB05 /* Pods-RevJetSDK_Example */;
+			targetProxy = C4D4D71B20D6D756D727863C2C5F8E10 /* PBXContainerItemProxy */;
+		};
+		526EDCB5CE13B646E6A4D1AA09831855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RevJetSDK;
+			target = 420EA9E7903A53F0B28F4F30D358B3D6 /* RevJetSDK */;
+			targetProxy = DBDCF9049BFD5A014553F5AA8F9020EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03B2B8709404DC461E7410593BE21EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B9F578EF8F4B837B80DE163CAC7D78 /* Pods-RevJetSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevJetSDK_Example/Pods-RevJetSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevJetSDK_Example/Pods-RevJetSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		37823C73F3DEC695DDF2EA18258C4F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5BA84FC835C96B40973D1BD09B00C3 /* Pods-RevJetSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevJetSDK_Example/Pods-RevJetSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevJetSDK_Example/Pods-RevJetSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F23447DF7A42D27A414E5C2E559A618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF99BF5B3E05EF088BE6D69870B0003F /* RevJetSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevJetSDK/RevJetSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevJetSDK/RevJetSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevJetSDK/RevJetSDK.modulemap";
+				PRODUCT_MODULE_NAME = RevJetSDK;
+				PRODUCT_NAME = RevJetSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A723E5B48B6507D0E1ED74DE80E5268C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF46DCB1CCDC0F606141C8E103F9E33 /* Pods-RevJetSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevJetSDK_Tests/Pods-RevJetSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevJetSDK_Tests/Pods-RevJetSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EFA905F8D97813B745615511F9E37758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827B544B5A778B3A37F0814C4992B704 /* Pods-RevJetSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevJetSDK_Tests/Pods-RevJetSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevJetSDK_Tests/Pods-RevJetSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F12CA897BC0052EE803591DB506EE476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB816441260AA52C0F7877AF3D3CDB2 /* RevJetSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevJetSDK/RevJetSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevJetSDK/RevJetSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevJetSDK/RevJetSDK.modulemap";
+				PRODUCT_MODULE_NAME = RevJetSDK;
+				PRODUCT_NAME = RevJetSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DE82F78106B728647895F443F755712 /* Build configuration list for PBXNativeTarget "Pods-RevJetSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B2B8709404DC461E7410593BE21EF4 /* Debug */,
+				37823C73F3DEC695DDF2EA18258C4F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885144779B7AA71E36345D8CCFF68348 /* Build configuration list for PBXNativeTarget "RevJetSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12CA897BC0052EE803591DB506EE476 /* Debug */,
+				7F23447DF7A42D27A414E5C2E559A618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBF59DB15D51A6EF2F0A8852FE409AD /* Build configuration list for PBXNativeTarget "Pods-RevJetSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A723E5B48B6507D0E1ED74DE80E5268C /* Debug */,
+				EFA905F8D97813B745615511F9E37758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

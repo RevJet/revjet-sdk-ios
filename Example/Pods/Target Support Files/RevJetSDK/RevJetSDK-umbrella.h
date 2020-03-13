@@ -1,0 +1,82 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "RJPixelsQueue.h"
+#import "RJPixelsTracker.h"
+#import "RJConversionCommon.h"
+#import "RJConversionConfig.h"
+#import "RJConversionReachability.h"
+#import "RJConversionTracker.h"
+#import "RJCustomEventAdapter.h"
+#import "RJMRAIDExpandViewController.h"
+#import "RJMRAIDNativeCalendarEvent.h"
+#import "RJMRAIDNativeCloseEvent.h"
+#import "RJMRAIDNativeEvent.h"
+#import "RJMRAIDNativeEventFactory.h"
+#import "RJMRAIDNativeExpandEvent.h"
+#import "RJMRAIDNativeOpenEvent.h"
+#import "RJMRAIDNativeOrientationPropertiesEvent.h"
+#import "RJMRAIDNativePlayVideoEvent.h"
+#import "RJMRAIDNativeStorePictureEvent.h"
+#import "RJMRAIDNativeUseCustomCloseEvent.h"
+#import "RJMRAID.h"
+#import "RJMRAIDAdapter.h"
+#import "RJMRAIDInterstitialAdapter.h"
+#import "RJMRAIDInterstitialController.h"
+#import "RJMRAIDScript.h"
+#import "RJMRAIDView.h"
+#import "RJMRAIDViewDelegate.h"
+#import "RevJetSDK.h"
+#import "RJAdapter.h"
+#import "RJAdapterInterstitial.h"
+#import "RJBaseInterstitialController.h"
+#import "RJInterstitialController.h"
+#import "RJInterstitialControllerDelegate.h"
+#import "RJPasteboard.h"
+#import "RJStoreProductViewController.h"
+#import "RJWebBrowser.h"
+#import "RJWebBrowserDelegate.h"
+#import "RJAdapterDelegate.h"
+#import "RJBaseAdapter.h"
+#import "RJBaseAdapterInterstitial.h"
+#import "RJGlobal.h"
+#import "RJHTMLScanner.h"
+#import "RJNetwork.h"
+#import "RJNetworkInterstitial.h"
+#import "RJNetworkMapping.h"
+#import "RJReachability.h"
+#import "RJSlot.h"
+#import "RJSlotDelegate.h"
+#import "RJSlotInterstitial.h"
+#import "RJSlotView.h"
+#import "RJSlotViewDelegate.h"
+#import "RJStatusBarVisibility.h"
+#import "RJURL.h"
+#import "RJUtilities.h"
+#import "RJUIImage.h"
+#import "RJVASTXMLParserAggregator.h"
+#import "RJXMLParser.h"
+#import "RJVASTAdRepresentation.h"
+#import "RJVASTCompanionAdRepresentation.h"
+#import "RJVASTComponentRepresentation.h"
+#import "RJVASTMediaFileRepresentation.h"
+#import "RJVASTRepresentationUtilities.h"
+#import "RJVASTInterstitialAdapter.h"
+#import "RJVASTInterstitialController.h"
+#import "RJVASTToolbarView.h"
+#import "RJVASTToolbarViewCloseButton.h"
+#import "RJVASTToolbarViewCountdownElement.h"
+#import "RJVASTToolbarViewLearnMoreButton.h"
+
+FOUNDATION_EXPORT double RevJetSDKVersionNumber;
+FOUNDATION_EXPORT const unsigned char RevJetSDKVersionString[];
+

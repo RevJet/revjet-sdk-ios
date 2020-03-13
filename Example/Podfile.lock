@@ -1,0 +1,16 @@
+PODS:
+  - RevJetSDK (1.13.1)
+
+DEPENDENCIES:
+  - RevJetSDK (from `../`)
+
+EXTERNAL SOURCES:
+  RevJetSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RevJetSDK: 9b5f524e2fae3bd7addf51a8eaedfe3601ba8c38
+
+PODFILE CHECKSUM: 69589199247466edcf384062d0c9f65a22ca2d0d
+
+COCOAPODS: 1.9.1
