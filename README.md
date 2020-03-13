@@ -87,7 +87,7 @@ _(SDK parameters are defined in ```<meta>``` tags.)_
 * 300x250
 
 To support additional ad sizes you need to update ```+ (CGSize)supportedSizeForSize:(CGSize)aSize``` method in
-"RevJetSDK/Utilities/RJUtilities.m".
+"RevJetSDK/Classes/Utilities/RJUtilities.m".
  
 ### Overriding LP URL handling
 
@@ -108,13 +108,13 @@ It is possible to override this behaviour by implementing ```- (BOOL)shouldOpenU
 
 It's possible to pre-cache the ad first instead of rendering it immediately.
 You should call ```- (void)fetchAd;``` method to load the ad and then call ```- (void)showAd;``` method to render
-the ad when it's necessary (see [RJSlot.h](RevJetSDK/RJSlot.h)).
+the ad when it's necessary (see [RJSlot.h](RevJetSDK/Classes/RJSlot.h)).
 
 ### Load and View events
 
 The SDK can inform you when the ad becomes visible to the end user. Implement ```- (void)didShowAd:(UIView *)aView```
-and/or ```- (void)didShowInterstitialAd:(NSObject *)anAd``` method from [RJSlotDelegate](RevJetSDK/RJSlotDelegate.h).
+and/or ```- (void)didShowInterstitialAd:(NSObject *)anAd``` method from [RJSlotDelegate](RevJetSDK/Classes/RJSlotDelegate.h).
 
 Also, if you need to execute any special behaviour when the ad is loaded but not rendered yet (like fire load pixel)
 implement ```- (void)didReceiveAd:(UIView *)aView``` and/or ```- (void)didReceiveInterstitialAd:(NSObject *)anAd```
-method (see [RJSlotDelegate.h](RevJetSDK/RJSlotDelegate.h)).
+method (see [RJSlotDelegate.h](RevJetSDK/Classes/RJSlotDelegate.h)).
